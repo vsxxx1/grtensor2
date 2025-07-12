@@ -1,0 +1,61 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 
+256 1 {CSTYLE "" -1 -1 "Helvetica" 1 10 255 0 0 1 2 1 2 0 0 0 0 0 0 1 
+}0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 1 2 2 2 0 0 0 0 0 0 1 }0 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 91 "Symmetries Demonstration 1
+:  A metric in coordinates adapted to a conformal Killing vector." }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 7 "grtw();" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%=GRTenso
+rII~Version~1.79~(R6)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%06~February
+~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%ZDeveloped~by~Peter~Musgrav
+e,~Denis~Pollney~and~Kayll~LakeG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%D
+Copyright~1994-2001~by~the~authors.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%inLatest~version~available~from:~http://grtensor.phy.queensu.ca/G" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4e:/Grtii(6)/MetricsG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "qload(ckvec);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%2Default~spacetimeG%&ckvecG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%9For~the~ckvec~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"x
+G6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7&
+%\"rG%&thetaG%$phiG%\"tG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%-Line~ele
+mentG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*$)%$~dsG\"\"#\"\"\",**&*&%#
+~dGF()%\"rG%#2~GF(F(*$),&-%\"HG6#F.F(-%\"GG6#%\"tGF(F'F(!\"\"F(*&*(-%
+\"bGF8F(F,F()%&thetaGF/F(F(*$F1F(F:F(*&**F=F()-%$sinG6#F@F'F(F,F()%$ph
+iGF/F(F(*$F1F(F:F(*&*&F,F()F9F/F(F(*$F1F(F:F:" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 16 "KillingCoords();" }}{PARA 6 "" 1 "" {TEXT -1 37 
+"Testing Killing coordinates for ckvec" }}{PARA 6 "" 1 "" {TEXT -1 34 
+"Created definition for coord1(dn) " }}{PARA 6 "" 1 "" {TEXT -1 39 "Cr
+eated a definition for coord1(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 39 "
+Created a definition for coord1(up,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 
+34 "Created definition for coord2(dn) " }}{PARA 6 "" 1 "" {TEXT -1 39 
+"Created a definition for coord2(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 
+39 "Created a definition for coord2(up,cdn)" }}{PARA 6 "" 1 "" {TEXT 
+-1 34 "Created definition for coord3(dn) " }}{PARA 6 "" 1 "" {TEXT -1 
+39 "Created a definition for coord3(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT 
+-1 39 "Created a definition for coord3(up,cdn)" }}{PARA 6 "" 1 "" 
+{TEXT -1 34 "Created definition for coord4(dn) " }}{PARA 6 "" 1 "" 
+{TEXT -1 39 "Created a definition for coord4(dn,cdn)" }}{PARA 6 "" 1 "
+" {TEXT -1 39 "Created a definition for coord4(up,cdn)" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$7*!\"$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%@Killing~Coordinate~Test~ResultsG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%3Coordinate~vector~G7&%\"rG%&thetaG%$phiG%\"tG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$/-%'coord1G6#%#upG7&\"\"\"\"\"!F*F*/%g
+n~a~homothetic/conformal~Killing~vector~with~conformal~factorG,$*&-%%d
+iffG6$-%\"HG6#%\"rGF5F),&F2F)-%\"GG6#%\"tGF)!\"\"F;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6$/-%'coord2G6#%#upG7&\"\"!\"\"\"F)F)%7~not~a~Killing~v
+ector.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$/-%'coord3G6#%#upG7&\"\"!F)
+\"\"\"F)%3~a~Killing~vector.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$/-%'c
+oord4G6#%#upG7&\"\"!F)F)\"\"\"%7~not~a~Killing~vector.G" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "3 20" 0 }{VIEWOPTS 1 1 
+0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

@@ -1,0 +1,395 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 
+256 1 {CSTYLE "" -1 -1 "Helvetica" 1 10 255 0 0 1 2 1 2 0 0 0 0 0 0 1 
+}0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 1 2 2 2 0 0 0 0 0 0 1 }0 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 36 "Elementary rudiments of GR
+TensorII: " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 108 "This is a brief introduction only. For more interesting exampl
+es consult the demonstrations page on the Web." }}{PARA 0 "" 0 "" 
+{TEXT -1 71 "For more detailed information consult the help pages and \+
+Release Notes." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 69 "The following (optional) line allows the worksheet to be \+
+re-executed." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 35 "We now load the GRTensorII package:" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "grtw():" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%=GRTensorII~Version~1.79~(R6)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%06~February~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+ZDeveloped~by~Peter~Musgrave,~Denis~Pollney~and~Kayll~LakeG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%DCopyright~1994-2001~by~the~authors.G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%inLatest~version~available~from:~http
+://grtensor.phy.queensu.ca/G" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 50 "T
+he current environment can be checked as follows:" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 12 "groptions();" }}{PARA 6 "" 1 "" {TEXT -1 29 "grOpti
+onAlterSize     = false" }}{PARA 6 "" 1 "" {TEXT -1 28 "grOptionCoordN
+ames    = true" }}{PARA 6 "" 1 "" {TEXT -1 25 "grOptionDefaultSimp   =
+ 8" }}{PARA 6 "" 1 "" {TEXT -1 28 "grOptionDisplayLimit  = 5000" }}
+{PARA 6 "" 1 "" {TEXT -1 28 "grOptionLLSC          = true" }}{PARA 6 "
+" 1 "" {TEXT -1 45 "grOptionMetricPath    = `e:/Grtii(6)/Metrics`" }}
+{PARA 6 "" 1 "" {TEXT -1 38 "grOptionqloadPath     = (not assigned)" }
+}{PARA 6 "" 1 "" {TEXT -1 27 "grOptionTermSize      = 100" }}{PARA 6 "
+" 1 "" {TEXT -1 29 "grOptionTrace         = false" }}{PARA 6 "" 1 "" 
+{TEXT -1 28 "grOptionTimeStamp     = true" }}{PARA 6 "" 1 "" {TEXT -1 
+29 "grOptionVerbose       = false" }}{PARA 6 "" 1 "" {TEXT -1 28 "grOp
+tionWindows       = true" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "
+" 1 "" {TEXT -1 65 "grOptionDefaultSimp values: 0=None, 1=simplify, 2=
+simplify[trig]," }}{PARA 6 "" 1 "" {TEXT -1 63 "  3=simplify[power] 4=
+simplify[hypergeom], 5=simplify[radical]," }}{PARA 6 "" 1 "" {TEXT -1 
+57 "  6=expand, 7=factor, 8=normal, 9=sort, 10=simplify[sqrt]" }}
+{PARA 6 "" 1 "" {TEXT -1 22 "  11=simplify[trigsin]" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 145 "We now use makeg to create a file (schwarz) wh
+ich is the Schwarzschild exterior metric in curvature coordinates. Her
+e we choose to enter the line" }}{PARA 0 "" 0 "" {TEXT -1 17 "element \+
+directly:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "makeg(schwarz);" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 1 " " }}
+{PARA 6 "" 1 "" {TEXT -1 46 "Makeg 2.0: GRTensor metric/basis entry ut
+ility" }}{PARA 6 "" 1 "" {TEXT -1 1 " " }}{PARA 6 "" 1 "" {TEXT -1 41 
+"To quit makeg, type 'exit' at any prompt." }}{PARA 6 "" 1 "" {TEXT 
+-1 1 " " }}{PARA 6 "" 1 "" {TEXT -1 44 "Do you wish to enter a 1) metr
+ic [g(dn,dn)]," }}{PARA 6 "" 1 "" {TEXT -1 44 "                       \+
+2) line element [ds]," }}{PARA 6 "" 1 "" {TEXT -1 63 "                \+
+       3) non-holonomic basis [e(1)...e(n)], or" }}{PARA 6 "" 1 "" 
+{TEXT -1 49 "                       4) NP tetrad [l,n,m,mbar]?" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "makeg>" 0 "" 
+{MPLTEXT 1 0 2 "2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}
+{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 16 "[r,theta,phi,t];" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#7&%\"rG%&thetaG%$phiG%\"tG" }}}{EXCHG 
+{PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 73 "d[r]^2/(1-2*m/r)+r^2*(d[theta]^
+2+sin(theta)^2*d[phi]^2)-(1-2*m/r)*d[t]^2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(*&*$)&%\"dG6#%\"rG\"\"#\"\"\"F,,&F,F,*&*&F+F,%\"mGF,F
+,F*!\"\"F1F1F,*&)F*F+F,,&*$)&F(6#%&thetaGF+F,F,*&)-%$sinGF8F+F,)&F(6#%
+$phiGF+F,F,F,F,*&F-F,)&F(6#%\"tGF+F,F1" }}}{EXCHG {PARA 0 "makeg>" 0 "
+" {MPLTEXT 1 0 3 "\{\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<\"" }}}
+{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 2 "5;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "The
+ Schwarzschild exterior metric in curvature coordinates;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%AThe~values~you~have~entered~are:G" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#/%,CoordinatesG7&%\"rG%&thetaG%$phiG%\"tG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%(Metric:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/*&&%\"gG6#%\"aG\"\"\"&%!G6#%\"bGF)-%'matrixG6#7&7&*&F)
+F),&F)F)*&*&\"\"#F)%\"mGF)F)%\"rG!\"\"F:F:\"\"!F;F;7&F;*$)F9F7F)F;F;7&
+F;F;*&F>F))-%$sinG6#%&thetaGF7F)F;7&F;F;F;,&F:F)*&*&F7F)F8F)F)F9F:F)" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#QfnThe~Schwarzschild~exterior~metric
+~in~curvature~coordinates;6\"" }}{PARA 6 "" 1 "" {TEXT -1 54 "You may \+
+choose to 0) Use the metric WITHOUT saving it," }}{PARA 6 "" 1 "" 
+{TEXT -1 46 "                  1) Save the metric as it is," }}{PARA 
+6 "" 1 "" {TEXT -1 54 "                  2) Correct an element of the \+
+metric," }}{PARA 6 "" 1 "" {TEXT -1 41 "                  3) Re-enter \+
+the metric," }}{PARA 6 "" 1 "" {TEXT -1 54 "                  4) Add/c
+hange constraint equations, " }}{PARA 6 "" 1 "" {TEXT -1 47 "         \+
+         5) Add a text description, or" }}{PARA 6 "" 1 "" {TEXT -1 61 
+"                  6) Abandon this metric and return to Maple." }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "makeg>" 0 "" 
+{MPLTEXT 1 0 2 "1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 68 "We choose not to load it so as to \+
+demonstrate the loading procedure." }}{PARA 0 "makeg>" 0 "" {MPLTEXT 
+1 0 2 "0;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 39 "We now load the metric we have created:" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 15 "qload(schwarz);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%2Default~spacetimeG%(schwarzG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%;For~the~schwarz~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"x
+G6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7&
+%\"rG%&thetaG%$phiG%\"tG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%-Line~ele
+mentG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*$)%$~dsG\"\"#\"\"\",**&*&%#
+~dGF()%\"rG%#2~GF(F(,&F(F(*&*&F'F(%\"mGF(F(F.!\"\"F4F4F(*()F.F'F(F,F()
+%&thetaGF/F(F(**F6F()-%$sinG6#F8F'F(F,F()%$phiGF/F(F(*(,&F4F(*&*&F'F(F
+3F(F(F.F4F(F(F,F()%\"tGF/F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%fnTh
+e~Schwarzschild~exterior~metric~in~curvature~coordinates;G" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 283 "To see what objects are predefined, load
+ the help library (?grtensor; for information on the help system, read
+lib(griihelp); to load the help library) and do ?grt_objects;. Here we
+ calculate and display (grcalcd) the covariant Ricci tensor (R(dn,dn))
+ and Kretschmann scalar (RiemSq)." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+25 "grcalcd(R(dn,dn),RiemSq);" }}{PARA 6 "" 1 "" {TEXT -1 38 "Created \+
+definition for R(dn,dn,up,up) " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*C
+PU~Time~G$\"$]\"!\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%;For~the~schw
+arz~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%0Covariant~RicciG
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"RG6$%#dnGF&" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/*&&%#R~G6#%\"aG\"\"\"&%!G6#%\"bGF)%8All~components~a
+re~zeroG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%<Full~Contraction~of~Riem
+annG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%#K~G,$*&*$)%\"mG\"\"#\"\"\"F
++*$)%\"rG\"\"'F+!\"\"\"#[" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 92 "Normally you would not want to display an
+ object without further simplification (see below)." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 83 "Let us use the definiti
+on facility (grdef) to define the covariant Einstein tensor:" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 45 "grdef(`E\{a b\}:=R\{a b\}-Ricciscalar*g\{
+a b\}/2`);" }}{PARA 6 "" 1 "" {TEXT -1 68 "This object is already defi
+ned. The new definition has been ignored." }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 168 "Notice that the attempt was ignored because the 2-tensor
+ \"E\" is predefined. (It is the\"electric part\" of the Weyl tensor, \+
+described in ?grt_operators;). Let's use \"En\":" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 46 "grdef(`En\{a b\}:=R\{a b\}-Ricciscalar*g\{a b\}/2`);
+" }}{PARA 6 "" 1 "" {TEXT -1 32 "Created definition for En(dn,dn)" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 91 "Now let us ask for the mixed compo
+nents. The definition for these is created automatically:" }}{PARA 0 "
+> " 0 "" {MPLTEXT 1 0 19 "grcalcd(En(dn,up));" }}{PARA 6 "" 1 "" 
+{TEXT -1 33 "Created definition for En(dn,up) " }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%*CPU~Time~G$\"#r!\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#%;For~the~schwarz~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%*
+En(dn,up)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#EnG6$%#dnG%#upG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/)&%#EnG6#%\"aG%\"bG%8All~components~a
+re~zeroG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 124 "Spacetimes which are
+ implicitly defined are handled by the application of constraints. Con
+sider the Kruskal-Szekeres metric:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+11 "qload(krn);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Default~spacetim
+eG%$krnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%7For~the~krn~spacetime:G
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#
+x~G%\"aG-%'vectorG6#7&%\"uG%\"vG%&thetaG%$phiG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%-Line~elementG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*$)
+%$~dsG\"\"#\"\"\",(*&*.)%\"mGF'F(,&F-F'-%\"rG6$%\"uG%\"vG!\"\"F(%#~dGF
+()F2%\"~GF(%#d~GF()F3F7F(F(*(F2F(F3F(F/F(F4!#;*()F/F'F(F5F()%&thetaG%#
+2~GF(F(**F=F()-%$sinG6#F?F'F(F5F()%$phiGF@F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%,ConstraintsG7$/-%%diffG6$-%\"rG6$%\"uG%\"vGF-,$*&*&%
+\"mG\"\"\",&F2\"\"#F*!\"\"F3F3*&F*F3F-F3F6!\"#/-F(6$F*F.,$*&*&F2F3F4F3
+F3*&F*F3F.F3F6F8" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%D~~~~Null~form~of
+~Kruskal~metric~~~~G" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 164 "Since ob
+jects calculated for this metric must be simplified (at least by the a
+pplication of constraints) we calculate some objects without displayin
+g them (grcalc):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "grcalc(R(dn,dn)
+,RiemSq);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#!)!\"$" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 228 "To simplify the objects we app
+ly gralter. If no routine is given, a menu of options is given as show
+n below.  Refer to the help on gralter. The argument _ is shorthand fo
+r the previous objects (in this case R(dn,dn) and RiemSq)." }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 11 "gralter(_);" }}{PARA 6 "" 1 "" {TEXT -1 48 
+"Component simplification of a GRTensorII object:" }}{PARA 6 "" 1 "" 
+{TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 59 "(use ?name for help on a \+
+particular simplification routine)" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}
+{PARA 6 "" 1 "" {TEXT -1 30 "Choose which routine to apply:" }}{PARA 
+6 "" 1 "" {TEXT -1 9 " 0)  none" }}{PARA 6 "" 1 "" {TEXT -1 58 " 1)  s
+implify()          try all simplification techniques" }}{PARA 6 "" 1 "
+" {TEXT -1 50 " 2)  simplify[trig]      apply trig simplification" }}
+{PARA 6 "" 1 "" {TEXT -1 52 " 3)  simplify[power]     simplify powers,
+ exp and ln" }}{PARA 6 "" 1 "" {TEXT -1 58 " 4)  simplify[hypergeom] s
+implify hypergeometric functions" }}{PARA 6 "" 1 "" {TEXT -1 67 " 5)  \+
+simplify[radical]   convert radicals,log,exp to canonical form" }}
+{PARA 6 "" 1 "" {TEXT -1 13 " 6)  expand()" }}{PARA 6 "" 1 "" {TEXT 
+-1 13 " 7)  factor()" }}{PARA 6 "" 1 "" {TEXT -1 13 " 8)  normal()" }}
+{PARA 6 "" 1 "" {TEXT -1 11 " 9)  sort()" }}{PARA 6 "" 1 "" {TEXT -1 
+49 "10)  simplify[sqrt,symbolic] allows sqrt(r^2) = r" }}{PARA 6 "" 1 
+"" {TEXT -1 52 "11)  simplify[trigsin]       trig simp biased to sin" 
+}}{PARA 6 "" 1 "" {TEXT -1 31 "12)  Apply constraint equations" }}
+{PARA 6 "" 1 "" {TEXT -1 33 "13)  Apply constraints repeatedly" }}
+{PARA 6 "" 1 "" {TEXT -1 33 "14)  other user specified routine" }}
+{PARA 6 "" 1 "" {TEXT -1 44 "Number of routine to apply (followed by ;
+) >" }}}{EXCHG {PARA 0 "gralter>" 0 "" {MPLTEXT 1 0 3 "13;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#8" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 27 
+"We now display the objects:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grd
+isplay(_);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%7For~the~krn~spacetime:
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%0Covariant~RicciG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#-%\"RG6$%#dnGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/*&&%#R~G6#%\"aG\"\"\"&%!G6#%\"bGF)%8All~components~are~zeroG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%<Full~Contraction~of~RiemannG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/%#K~G,$*&*$)%\"mG\"\"#\"\"\"F+*$)-%\"
+rG6$%\"uG%\"vG\"\"'F+!\"\"\"#[" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 65 
+"Let us now do a basis calculation. We use a covariant basis here:" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "qload(schwb);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%2Default~spacetimeG%&schwbG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%9For~the~schwb~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"x
+G6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7&
+%\"rG%&thetaG%$phiG%\"tG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4Basis~in
+ner~productG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$etaG6$%$bupGF&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%$etaG%$(a)G\"\"\")%!G%$(b)GF(-%'m
+atrixG6#7&7&!\"\"\"\"!F2F27&F2F1F2F27&F2F2F1F27&F2F2F2F(" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%=Basis~(covariant~components)G" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#-%#w1G6#%#dnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/
+&%'omega1G6#%\"aG-%'vectorG6#7&*&*$-%%sqrtG6#%\"rG\"\"\"F2*$-F/6#,&F1F
+2*&\"\"#F2%\"mGF2!\"\"F2F:\"\"!F;F;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#-%#w2G6#%#dnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%'omega2G6#%\"aG-%
+'vectorG6#7&\"\"!%\"rGF,F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#w3G6#
+%#dnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%'omega3G6#%\"aG-%'vectorG6
+#7&\"\"!F,*&%\"rG\"\"\"-%$sinG6#%&thetaGF/F," }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%#w4G6#%#dnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%'om
+ega4G6#%\"aG-%'vectorG6#7&\"\"!F,F,*&*$-%%sqrtG6#,&%\"rG\"\"\"*&\"\"#F
+4%\"mGF4!\"\"F4F4*$-F06#F3F4F8" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%;~~
+~~Schwarzschild~basis~~~G" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 131 "The
+ basis components are distinguished by the prefix b. For example, let'
+s calculate the mixed basis components of the Weyl tensor:" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 27 "grcalc(C(bdn,bdn,bup,bup));" }}{PARA 6 "" 
+1 "" {TEXT -1 42 "Created definition for C(bdn,bdn,bup,bup) " }}{PARA 
+6 "" 1 "" {TEXT -1 38 "Created a definition for e(bdn,dn,pdn)" }}
+{PARA 6 "" 1 "" {TEXT -1 40 "Created definition for rot(bdn,bup,bdn) \+
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$,#!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%9For~the~schwb~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%3C(bdn,bdn,bup,bup)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#/*&&%\"CG6#%((1)~(2)G\"\"\")%!GF(F)*&%\"mGF)*$)%\"rG\"\"$F)!\"\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"CG6#%((1)~(3)G\"\"\")%!GF(F)*&%
+\"mGF)*$)%\"rG\"\"$F)!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"C
+G6#%((1)~(4)G\"\"\")%!GF(F),$*&%\"mGF)*$)%\"rG\"\"$F)!\"\"!\"#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"CG6#%((2)~(3)G\"\"\")%!GF(F),$*
+&%\"mGF)*$)%\"rG\"\"$F)!\"\"!\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*
+&&%\"CG6#%((2)~(4)G\"\"\")%!GF(F)*&%\"mGF)*$)%\"rG\"\"$F)!\"\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"CG6#%((3)~(4)G\"\"\")%!GF(F)*&%
+\"mGF)*$)%\"rG\"\"$F)!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 129 "Th
+e Newman-Penrose formalism can be used from a contravariant or a covar
+iant null tetrad. We start with the contravariant tetrad:" }}{PARA 0 "
+> " 0 "" {MPLTEXT 1 0 14 "qload(npschw);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/%2Default~spacetimeG%'npschwG" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%:For~the~npschw~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%,Co
+ordinatesG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7&%\"rG%&thetaG%$phi
+G%\"tG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4Basis~inner~productG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$etaG6$%$bupGF&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/*&)%$etaG%$(a)G\"\"\")%!G%$(b)GF(-%'matrixG6#7&7&\"\"!
+F(F1F17&F(F1F1F17&F1F1F1!\"\"7&F1F1F4F1" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%GNull~tetrad~(contravaraint~components)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$NPlG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%\"
+lG%\"aG-%'vectorG6#7&,$*&*$-%%sqrtG6#\"\"#\"\"\"F2*$-F/6#*&%\"rGF2,&F7
+F2*&F1F2%\"mGF2!\"\"F;F2F;#F2F1\"\"!F=,$*&*$F.F2F2*$-F/6#*&F8F2F7F;F2F
+;F<" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$NPnG6#%#upG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/)%\"nG%\"aG-%'vectorG6#7&,$*&*$-%%sqrtG6#\"\"#\"
+\"\"F2*$-F/6#*&%\"rGF2,&F7F2*&F1F2%\"mGF2!\"\"F;F2F;#F;F1\"\"!F=,$*&*$
+F.F2F2*$-F/6#*&F8F2F7F;F2F;#F2F1" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%
+$NPmG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%\"mG%\"aG-%'vectorG
+6#7&\"\"!,$*&*$-%%sqrtG6#\"\"#\"\"\"F3%\"rG!\"\"#F3F2*&*&^#F6F3F/F3F3*
+&F4F3-%$sinG6#%&thetaGF3F5F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'NPm
+barG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%%mbarG%\"aG-%'vector
+G6#7&\"\"!,$*&*$-%%sqrtG6#\"\"#\"\"\"F3%\"rG!\"\"#F3F2*&*&^##F5F2F3F/F
+3F3*&F4F3-%$sinG6#%&thetaGF3F5F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%_
+p~~~~Contravariant~NPtetrad~for~the~Schwarzschild~metric~in~curvature~
+coordinates~~~~G" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 34 "Let's calcula
+te the Ricci scalars:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "grcalcd(Ri
+cciSc);" }}{PARA 6 "" 1 "" {TEXT -1 41 "`Basis/tetrad related object d
+efinitions`" }}{PARA 6 "" 1 "" {TEXT -1 31 "`Last modified 23 January \+
+2001`" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$g#!\"$" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%:For~the~npschw~spacetime:G" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%4Ricci~Scalar,~Phi00G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%&Phi00G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4Ric
+ci~Scalar,~Phi01G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%&Phi01G\"\"!" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4Ricci~Scalar,~Phi02G" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/%&Phi02G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%4Ricci~Scalar,~Phi11G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%&Phi11G
+\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4Ricci~Scalar,~Phi12G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/%&Phi12G\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%4Ricci~Scalar,~Phi22G" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/%&Phi22G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%<NPLambda~:=~Ric
+ci~Scalar/24G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%)NPLambdaG\"\"!" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 57 "From a covariant tetrad let us ca
+lculate the Petrov type:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "qload(n
+pcschw);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Default~spacetimeG%(npc
+schwG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%;For~the~npcschw~spacetime:G
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#
+x~G%\"aG-%'vectorG6#7&%\"rG%&thetaG%$phiG%\"tG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%4Basis~inner~productG" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#-%$etaG6$%$bupGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%$etaG%$(a
+)G\"\"\")%!G%$(b)GF(-%'matrixG6#7&7&\"\"!F(F1F17&F(F1F1F17&F1F1F1!\"\"
+7&F1F1F4F1" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%CNull~tetrad~(covariant
+~components)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$NPlG6#%#dnG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"lG6#%\"aG-%'vectorG6#7&,$*&*&%\"r
+G\"\"\"-%%sqrtG6#\"\"#F0F0*&,&F/F0*&F4F0%\"mGF0!\"\"F0-F26#*&F/F0F6F9F
+0F9#F9F4\"\"!F>,$*&*&F6F0F1F0F0*&F/F0-F26#*&F6F0F/F9F0F9#F0F4" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$NPnG6#%#dnG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/&%\"nG6#%\"aG-%'vectorG6#7&,$*&*&%\"rG\"\"\"-%%sqrtG6#
+\"\"#F0F0*&,&F/F0*&F4F0%\"mGF0!\"\"F0-F26#*&F/F0F6F9F0F9#F0F4\"\"!F>,$
+*&*&F6F0F1F0F0*&F/F0-F26#*&F6F0F/F9F0F9F=" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$NPmG6#%#dnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"
+mG6#%\"aG-%'vectorG6#7&\"\"!,$*&%\"rG\"\"\"-%%sqrtG6#\"\"#F0#!\"\"F4**
+^#F5F0F/F0-%$sinG6#%&thetaGF0F1F0F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#-%'NPmbarG6#%#dnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%%mbarG6#%\"aG
+-%'vectorG6#7&\"\"!,$*&%\"rG\"\"\"-%%sqrtG6#\"\"#F0#!\"\"F4**^##F0F4F0
+F/F0-%$sinG6#%&thetaGF0F1F0F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%jo~~
+~Covariant~NPtetrad~for~the~Schwarzschild~metric~in~curvature~coordina
+tes~~~~G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "grcalcd(Petrov)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#!*!\"$" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%;For~the~npcschw~spacetime:G" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%,Petrov~TypeG" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#/%-Petrov~Type~G%/D~(or~simpler)G" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 108 "Since we were not careful to ensure that the Weyl scalars were
+ in fully simplifed form, we ask for a report:" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "PetrovReport();" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%N
+The~conclusion~'Petrov~type~=~D~(or~simpler)'G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%7for~the~npcschw~metricG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%Dwas~based~on~the~following~results:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%1Weyl~scalar~Psi0G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/%1Weyl~scalar~Psi1G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%QW
+eyl~scalar~Psi2~could~not~be~evaluated~to~zero.G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%1Weyl~scalar~Psi3G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/%1Weyl~scalar~Psi4G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%T-
+-->~Therefore~the~metric~is~Petrov~D~(or~simpler).G" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%X---------------------------------------------------
+----G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%YThe~quantities~that~could~n
+ot~be~evaluated~to~zero~are:~G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%1W
+eyl~scalar~Psi2G,$*&%\"mG\"\"\"*$)%\"rG\"\"$F(!\"\"F-" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 244 "Notice that we have 5 spacetimes active \+
+in this session (schwarz, krn, schwb, npschw, npcschw). The current de
+fault is npcschw (the last one loaded). We can calculate an object for
+ any one of the spacetimes (e.g. the Weyl invariant W1R for krn)" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "grcalc(W1R[krn]);" }}{PARA 6 "" 1 "
+" {TEXT -1 25 "Scalar invariant library." }}{PARA 6 "" 1 "" {TEXT -1 
+28 "Last modified 25 March 1997." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%
+*CPU~Time~G$\"$\">!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "g
+ralter(_,13);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Component simplification
+ of a GRTensorII object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "
+" 1 "" {TEXT -1 61 "Applying routine `Apply constraints repeatedly` to
+ object W1R" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#?!\"$
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%7For~the~krn~spacetime:G" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%4CM~invariant~Re(W1)G" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/%%W1R~G,$*&*$)%\"mG\"\"#\"\"\"F+*$)-%\"rG6$%\"uG%\"vG\"\"'F+!\"
+\"F3" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 47 "Let us load another impli
+cit form of the metric" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "qload(isr
+ael);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Default~spacetimeG%'israel
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%:For~the~israel~spacetime:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~
+G%\"aG-%'vectorG6#7&%\"uG%\"wG%&thetaG%$phiG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%-Line~elementG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*$)
+%$~dsG\"\"#\"\"\",**&*()%\"wGF'F(%#~dGF()%\"uG%#2~GF(F(*&%\"mGF(-%\"rG
+6$F0F-F(!\"\"#F(F'*,F'F(F.F()F0%\"~GF(%#d~GF()F-F;F(F(*()F4F'F(F.F()%&
+thetaGF1F(F(**F?F()-%$sinG6#FAF'F(F.F()%$phiGF1F(F(" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/%,ConstraintsG7#/-%\"rG6$%\"uG%\"wG,&%\"mG\"\"#*&*(#
+\"\"\"\"\"%F2F*F2F+F2F2F-!\"\"F2" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%I
+Israel~coordinates~(Phys.~Rev.~143,1016)G" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 35 "We define a differential invariant:" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 52 "grdef(`DiRiem:=R\{a b ^c ^d ; e\}*R\{c d ^a ^b ; ^e\}
+`);" }}{PARA 6 "" 1 "" {TEXT -1 43 "Created a definition for R(dn,dn,u
+p,up,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 42 "Created definition for R(dn,
+dn,up,up,cup) " }}{PARA 6 "" 1 "" {TEXT -1 29 "Created definition for \+
+DiRiem" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "grcalc(DiRiem);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$h#!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "gralter(_,13);" }}{PARA 6 "" 1 "" 
+{TEXT -1 48 "Component simplification of a GRTensorII object:" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 64 "Applying \+
+routine `Apply constraints repeatedly` to object DiRiem" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#I!\"$" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#%:For~the~israel~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%'DiR
+iemG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%'DiRiemG,$*&*()%\"mG\"#5\"\"
+\"%\"uGF+%\"wGF+F+*$),&*$)F)\"\"#F+\"\")*&F,F+F-F+F+\"\"*F+!\"\"\")?f=
+Z" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 108 "Notice that the invariant v
+anishes at u=0 (r(0,w)=2m), a property of this object that holds more \+
+generally. " }}{PARA 0 "" 0 "" {TEXT -1 176 "Whereas we have interacti
+vely defined this invariant here, it is also predefined in the differe
+ntial invariants library dinvar as diRiem. Do grlib(dinvar); to load t
+he library." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 106 "We can also change the default spacetime with grmetric. Let's \+
+go back to schwarz and CREATE a null tetrad:" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "grmetric(schwarz);" }}{PARA 6 "" 1 "" {TEXT -1 30 "De
+fault metric is now schwarz." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 16 "nptetrad([r,t]);" }}{PARA 6 "" 1 "" {TEXT -1 52 "The metric sign
+ature of the schwarz spacetime is +2." }}{PARA 6 "" 1 "" {TEXT -1 81 "
+In order to create an NP-tetrad, the signature of g(dn,dn) will be cha
+nged to -2." }}{PARA 6 "" 1 "" {TEXT -1 39 "Continue? (1=yes [default]
+, other=no) :" }}}{EXCHG {PARA 0 "nptetrad>" 0 "" {MPLTEXT 1 0 2 "1;" 
+}}{PARA 11 "" 0 "" {TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 141 "The situation here (in S
+chwarzschild) is unusually simple. The basis vectors would normally re
+quire further simplification for efficient use." }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "42 0 0" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

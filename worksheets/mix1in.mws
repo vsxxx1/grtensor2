@@ -1,0 +1,131 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 
+256 1 {CSTYLE "" -1 -1 "Helvetica" 1 10 255 0 0 1 2 1 2 0 0 0 0 0 0 1 
+}0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 1 2 2 2 0 0 0 0 0 0 1 }0 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 85 "Creation of \"Frame-Field
+\" for the mixmaster metric with constant basis inner product." }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 7 "grtw();" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%=GRTenso
+rII~Version~1.79~(R6)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%06~February
+~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%ZDeveloped~by~Peter~Musgrav
+e,~Denis~Pollney~and~Kayll~LakeG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%D
+Copyright~1994-2001~by~the~authors.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%inLatest~version~available~from:~http://grtensor.phy.queensu.ca/G" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4e:/Grtii(6)/MetricsG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "makeg(mix1);" }}{PARA 6 "" 1 "" 
+{TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 1 " " }}{PARA 6 "" 1 "" 
+{TEXT -1 46 "Makeg 2.0: GRTensor metric/basis entry utility" }}{PARA 
+6 "" 1 "" {TEXT -1 1 " " }}{PARA 6 "" 1 "" {TEXT -1 41 "To quit makeg,
+ type 'exit' at any prompt." }}{PARA 6 "" 1 "" {TEXT -1 1 " " }}{PARA 
+6 "" 1 "" {TEXT -1 44 "Do you wish to enter a 1) metric [g(dn,dn)]," }
+}{PARA 6 "" 1 "" {TEXT -1 44 "                       2) line element [
+ds]," }}{PARA 6 "" 1 "" {TEXT -1 63 "                       3) non-hol
+onomic basis [e(1)...e(n)], or" }}{PARA 6 "" 1 "" {TEXT -1 49 "       \+
+                4) NP tetrad [l,n,m,mbar]?" }}{PARA 6 "" 1 "" {TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 2 "3;" }}{PARA 6 
+"" 1 "" {TEXT -1 50 "Enter coordinates as a LIST (eg. [t,r,theta,phi])
+:" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 18 "[Theta,Phi,Psi,T];
+" }}{PARA 6 "" 1 "" {TEXT -1 48 "Would you like to enter 1) covariant \+
+components," }}{PARA 6 "" 1 "" {TEXT -1 55 "                        2)
+ contravariant components, or" }}{PARA 6 "" 1 "" {TEXT -1 32 "        \+
+                3) both." }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 
+0 2 "1;" }}{PARA 6 "" 1 "" {TEXT -1 111 "Enter the covariant component
+s of basis vector '1' as a LIST (eg. [1,0,0,0]) or differential (eg. d
+[x] + d[y]):" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 83 "[-exp(a
+(T))*(1-Psi^2)^(1/2)/(1-Theta^2)^(1/2),exp(a(T))*Psi*(1-Theta^2)^(1/2)
+,0,0];" }}{PARA 6 "" 1 "" {TEXT -1 111 "Enter the covariant components
+ of basis vector '2' as a LIST (eg. [1,0,0,0]) or differential (eg. d[
+x] + d[y]):" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 84 "[-exp(b(
+T))*Psi/(1-Theta^2)^(1/2),-exp(b(T))*(1-Theta^2)^(1/2)*(1-Psi^2)^(1/2)
+,0,0];" }}{PARA 6 "" 1 "" {TEXT -1 111 "Enter the covariant components
+ of basis vector '3' as a LIST (eg. [1,0,0,0]) or differential (eg. d[
+x] + d[y]):" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 48 "[0,Theta
+*exp(c(T)),exp(c(T))/(1-Psi^2)^(1/2),0];" }}{PARA 6 "" 1 "" {TEXT -1 
+111 "Enter the covariant components of basis vector '4' as a LIST (eg.
+ [1,0,0,0]) or differential (eg. d[x] + d[y]):" }}}{EXCHG {PARA 0 "mak
+eg>" 0 "" {MPLTEXT 1 0 28 "[0,0,0,exp(a(T)+b(T)+c(T))];" }}{PARA 6 "" 
+1 "" {TEXT -1 43 "Is the basis inner product  1) Diagonal, or" }}
+{PARA 6 "" 1 "" {TEXT -1 41 "                            2) Symmetric?
+" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 2 "1;" }}{PARA 6 "" 1 "
+" {TEXT -1 15 "Enter eta[1,1]:" }}}{EXCHG {PARA 0 "makeg>" 0 "" 
+{MPLTEXT 1 0 2 "1;" }}{PARA 6 "" 1 "" {TEXT -1 15 "Enter eta[2,2]:" }}
+}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 2 "1;" }}{PARA 6 "" 1 "" 
+{TEXT -1 15 "Enter eta[3,3]:" }}}{EXCHG {PARA 0 "makeg>" 0 "" 
+{MPLTEXT 1 0 2 "1;" }}{PARA 6 "" 1 "" {TEXT -1 15 "Enter eta[4,4]:" }}
+}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 3 "-1;" }}{PARA 6 "" 1 "" 
+{TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 67 "If there are any complex \+
+valued coordinates, constants or functions" }}{PARA 6 "" 1 "" {TEXT 
+-1 66 "for this spacetime, please enter them as a SET ( eg. \{ z, psi \+
+\} )." }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 33 "
+Complex quantities [default=\{\}]: " }}}{EXCHG {PARA 0 "makeg>" 0 "" 
+{MPLTEXT 1 0 3 "\{\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%AThe~values~
+you~have~entered~are:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%,Coordinat
+esG7&%&ThetaG%$PhiG%$PsiG%\"TG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%/Ba
+sis~1-forms:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%&omegaG6#\"\"\"-%'
+vectorG6#7&,$*&*&-%$expG6#-%\"aG6#%\"TGF'-%%sqrtG6#,&F'F'*$)%$PsiG\"\"
+#F'!\"\"F'F'*$-F76#,&F'F'*$)%&ThetaGF=F'F>F'F>F>*(F/F'F<F'-F76#FBF'\"
+\"!FI" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%&omegaG6#\"\"#-%'vectorG6#
+7&,$*&*&-%$expG6#-%\"bG6#%\"TG\"\"\"%$PsiGF6F6*$-%%sqrtG6#,&F6F6*$)%&T
+hetaGF'F6!\"\"F6F@F@,$*(F/F6-F:6#F<F6-F:6#,&F6F6*$)F7F'F6F@F6F@\"\"!FJ
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%&omegaG6#\"\"$-%'vectorG6#7&\"
+\"!*&%&ThetaG\"\"\"-%$expG6#-%\"cG6#%\"TGF/*&F0F/*$-%%sqrtG6#,&F/F/*$)
+%$PsiG\"\"#F/!\"\"F/FAF," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%&omegaG
+6#\"\"%-%'vectorG6#7&\"\"!F,F,-%$expG6#,(-%\"aG6#%\"TG\"\"\"-%\"bGF3F5
+-%\"cGF3F5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%@Inner~product~of~basis
+~vectors:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%$etaG-%'matrixG6#7&7&
+\"\"\"\"\"!F+F+7&F+F*F+F+7&F+F+F*F+7&F+F+F+!\"\"" }}{PARA 6 "" 1 "" 
+{TEXT -1 54 "You may choose to 0) Use the metric WITHOUT saving it," }
+}{PARA 6 "" 1 "" {TEXT -1 46 "                  1) Save the metric as \+
+it is," }}{PARA 6 "" 1 "" {TEXT -1 45 "                  2) Re-enter a
+ basis vector," }}{PARA 6 "" 1 "" {TEXT -1 48 "                  3) Re
+-enter the inner product," }}{PARA 6 "" 1 "" {TEXT -1 44 "            \+
+      4) Add/change constraints," }}{PARA 6 "" 1 "" {TEXT -1 48 "     \+
+              5) Add a text description, or" }}{PARA 6 "" 1 "" {TEXT 
+-1 61 "                  6) Abandon this metric and return to Maple." 
+}}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "makeg>" 0 "" 
+{MPLTEXT 1 0 2 "5;" }}{PARA 6 "" 1 "" {TEXT -1 23 "Enter text informat
+ion:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 72 "Mixmaster metric (e
+.g. MTW Box 30.1, Theta = cos(theta), Psi = sin(psi))" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%AThe~values~you~have~entered~are:G" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/%,CoordinatesG7&%&ThetaG%$PhiG%$PsiG%\"TG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%/Basis~1-forms:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/&%&omegaG6#\"\"\"-%'vectorG6#7&,$*&*&-%$expG6#-%\"aG6#
+%\"TGF'-%%sqrtG6#,&F'F'*$)%$PsiG\"\"#F'!\"\"F'F'*$-F76#,&F'F'*$)%&Thet
+aGF=F'F>F'F>F>*(F/F'F<F'-F76#FBF'\"\"!FI" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/&%&omegaG6#\"\"#-%'vectorG6#7&,$*&*&-%$expG6#-%\"bG6#%\"TG\"\"
+\"%$PsiGF6F6*$-%%sqrtG6#,&F6F6*$)%&ThetaGF'F6!\"\"F6F@F@,$*(F/F6-F:6#F
+<F6-F:6#,&F6F6*$)F7F'F6F@F6F@\"\"!FJ" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#/&%&omegaG6#\"\"$-%'vectorG6#7&\"\"!*&%&ThetaG\"\"\"-%$expG6#-%\"cG6
+#%\"TGF/*&F0F/*$-%%sqrtG6#,&F/F/*$)%$PsiG\"\"#F/!\"\"F/FAF," }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/&%&omegaG6#\"\"%-%'vectorG6#7&\"\"!F,F,-%$e
+xpG6#,(-%\"aG6#%\"TG\"\"\"-%\"bGF3F5-%\"cGF3F5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%@Inner~product~of~basis~vectors:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%$etaG-%'matrixG6#7&7&\"\"\"\"\"!F+F+7&F+F*F+F+7&F+F+F
+*F+7&F+F+F+!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#QcoMixmaster~metri
+c~(e.g.~MTW~Box~30.1,~Theta~=~cos(theta),~Psi~=~sin(psi))6\"" }}{PARA 
+6 "" 1 "" {TEXT -1 54 "You may choose to 0) Use the metric WITHOUT sav
+ing it," }}{PARA 6 "" 1 "" {TEXT -1 46 "                  1) Save the \+
+metric as it is," }}{PARA 6 "" 1 "" {TEXT -1 45 "                  2) \+
+Re-enter a basis vector," }}{PARA 6 "" 1 "" {TEXT -1 48 "             \+
+     3) Re-enter the inner product," }}{PARA 6 "" 1 "" {TEXT -1 44 "  \+
+                4) Add/change constraints," }}{PARA 6 "" 1 "" {TEXT 
+-1 48 "                   5) Add a text description, or" }}{PARA 6 "" 
+1 "" {TEXT -1 61 "                  6) Abandon this metric and return \+
+to Maple." }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "makeg>" 
+0 "" {MPLTEXT 1 0 2 "1;" }}{PARA 6 "" 1 "" {TEXT -1 54 "Information wr
+itten to: `e:/Grtii(6)/Metrics/mix1.mpl`" }}{PARA 6 "" 1 "" {TEXT -1 
+57 "Do you wish to use this spacetime in the current session?" }}
+{PARA 6 "" 1 "" {TEXT -1 29 "(1=yes [default], other=no): " }}}{EXCHG 
+{PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "19 0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

@@ -1,0 +1,66 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 11 0 0 0 1 2 2 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helveti
+ca" 1 10 255 0 0 1 2 1 2 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 
+1 2 2 2 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "grtw();" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%=GRTensorII~Version~1.79~(R6)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%06~February~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+ZDeveloped~by~Peter~Musgrave,~Denis~Pollney~and~Kayll~LakeG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%DCopyright~1994-2001~by~the~authors.G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%inLatest~version~available~from:~http
+://grtensor.phy.queensu.ca/G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4e:/G
+rtii(6)/MetricsG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "with(co
+degen,cost):" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 27 "First note how co
+st counts:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "C:=x+y;" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"CG,&%\"xG\"\"\"%\"yGF'" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 17 "codegen[cost](C);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%*additionsG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+10 "C1:=x+y+z;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#C1G,(%\"xG\"\"\"%
+\"yGF'%\"zGF'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "codegen[co
+st](C1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$%*additionsG\"\"#" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "interface(labelling=false):
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "qload(fourd);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/%2Default~spacetimeG%&fourdG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%9For~the~fourd~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"x
+G6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7&
+%#x1G%#x2G%#x3G%#x4G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%-Line~element
+G" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/*$)%$~dsG\"\"#\"\"\",6*(-%\"aG6&
+%#x1G%#x2G%#x3G%#x4GF(%#~dGF()F.%#2~GF(F(*.F'F(-%\"bGF-F(F2F()F.%\"~GF
+(%#d~GF()F/F9F(F(*.F'F(-%\"cGF-F(F2F(F8F(F:F()F0F9F(F(*.F'F(-%\"dGF-F(
+F2F(F8F(F:F()F1F9F(F(*(-%\"fGF-F(F2F()F/F4F(F(*.F'F(-%\"hGF-F(F2F(F;F(
+F:F(F?F(F(*.F'F(-%\"iGF-F(F2F(F;F(F:F(FCF(F(*(-%\"jGF-F(F2F()F0F4F(F(*
+.F'F(-%\"kGF-F(F2F(F?F(F:F(FCF(F(*(-%\"lGF-F(F2F()F1F4F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "grOptionDefaultSimp:=0:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "grdef(`RR11:=g\{^c ^d\}*R\{c $x1 $x
+1 d\}`):" }}{PARA 6 "" 1 "" {TEXT -1 27 "Created definition for RR11" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "grdef(`RR12:=g\{^c ^d\}*R
+\{c $x1 $x2 d\}`):" }}{PARA 6 "" 1 "" {TEXT -1 27 "Created definition \+
+for RR12" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grcalc(RR11):" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$!=!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "codegen[cost](numer(grcomponent(RR1
+1,[])));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(%*additionsG\"%*)***&\"&
+W!z\"\"\"%0multiplicationsGF(F(*&\"&eO)F(%*functionsGF(F(" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 25 "9989 additions=9990 terms" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 13 "grcalc(RR12):" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/%*CPU~Time~G$\"#S!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+43 "codegen[cost](numer(grcomponent(RR12,[])));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(%*additionsG\"&zK\"*&\"'OR5\"\"\"%0multiplicationsGF(
+F(*&\"'N<6F(%*functionsGF(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 27 "1
+3279 additions=13280 terms" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}}}{MARK "15 1" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 
+2 33 1 1 }

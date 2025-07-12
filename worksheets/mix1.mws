@@ -1,0 +1,244 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 
+1 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font
+ 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 10 255 0 0 1 2 1 2 0 0 0 
+0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 
+1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 1 2 2 2 0 0 0 0 0 0 1 }0 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 75 "\"Frame-Field\"  calculati
+on of Ricci and Weyl and Ricci and Weyl invariants " }}{PARA 0 "" 0 "
+" {TEXT -1 59 "for the mixmaster metric with constant basis inner prod
+uct." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 7 "grtw():" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+=GRTensorII~Version~1.79~(R6)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%06~
+February~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%ZDeveloped~by~Peter
+~Musgrave,~Denis~Pollney~and~Kayll~LakeG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%DCopyright~1994-2001~by~the~authors.G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%inLatest~version~available~from:~http://grtensor.phy.q
+ueensu.ca/G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "qload(mix1);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Default~spacetimeG%%mix1G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~the~mix1~spacetime:G" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~G%\"aG-%'
+vectorG6#7&%&ThetaG%$PhiG%$PsiG%\"TG" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%4Basis~inner~productG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$etaG6$%
+$bupGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%$etaG%$(a)G\"\"\")%!G%
+$(b)GF(-%'matrixG6#7&7&F(\"\"!F1F17&F1F(F1F17&F1F1F(F17&F1F1F1!\"\"" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%=Basis~(covariant~components)G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#w1G6#%#dnG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/&%'omega1G6#%\"aG-%'vectorG6#7&,$*&*&-%$expG6#-F'6#%\"
+TG\"\"\"-%%sqrtG6#,&F5F5*$)%$PsiG\"\"#F5!\"\"F5F5*$-F76#,&F5F5*$)%&The
+taGF=F5F>F5F>F>*(F/F5F<F5-F76#FBF5\"\"!FI" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%#w2G6#%#dnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%'om
+ega2G6#%\"aG-%'vectorG6#7&,$*&*&-%$expG6#-%\"bG6#%\"TG\"\"\"%$PsiGF6F6
+*$-%%sqrtG6#,&F6F6*$)%&ThetaG\"\"#F6!\"\"F6FAFA,$*(F/F6-F:6#F<F6-F:6#,
+&F6F6*$)F7F@F6FAF6FA\"\"!FK" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#w3G6
+#%#dnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%'omega3G6#%\"aG-%'vectorG
+6#7&\"\"!*&%&ThetaG\"\"\"-%$expG6#-%\"cG6#%\"TGF/*&F0F/*$-%%sqrtG6#,&F
+/F/*$)%$PsiG\"\"#F/!\"\"F/FAF," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#w
+4G6#%#dnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%'omega4G6#%\"aG-%'vect
+orG6#7&\"\"!F,F,-%$expG6#,(-F'6#%\"TG\"\"\"-%\"bGF2F4-%\"cGF2F4" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%coMixmaster~metric~(e.g.~MTW~Box~30.1
+,~Theta~=~cos(theta),~Psi~=~sin(psi))G" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "grcalcalter(R(bdn,bdn),8);" }}{PARA 6 "" 1 "" {TEXT 
+-1 40 "Created definition for rot(bdn,bup,bdn) " }}{PARA 6 "" 1 "" 
+{TEXT -1 38 "Created a definition for e(bdn,dn,pdn)" }}{PARA 6 "" 1 "
+" {TEXT -1 50 "Simplification will be applied during calculation." }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 42 "Applying \+
+routine normal to object g(up,up)" }}{PARA 6 "" 1 "" {TEXT -1 43 "Appl
+ying routine normal to object e(bdn,up)" }}{PARA 6 "" 1 "" {TEXT -1 
+47 "Applying routine normal to object e(bdn,dn,pdn)" }}{PARA 6 "" 1 "
+" {TEXT -1 53 "Applying routine normal to object lambda(bdn,bdn,bdn)" 
+}}{PARA 6 "" 1 "" {TEXT -1 50 "Applying routine normal to object rot(b
+dn,bdn,bdn)" }}{PARA 6 "" 1 "" {TEXT -1 50 "Applying routine normal to
+ object rot(bdn,bup,bdn)" }}{PARA 6 "" 1 "" {TEXT -1 52 "Applying rout
+ine normal to object R(bdn,bdn,bdn,bdn)" }}{PARA 6 "" 1 "" {TEXT -1 
+44 "Applying routine normal to object R(bdn,bdn)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%*CPU~Time~G$\"$\"=!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "gralter(_,6,7);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Compo
+nent simplification of a GRTensorII object:" }}{PARA 6 "" 1 "" {TEXT 
+-1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 44 "Applying routine expand to obje
+ct R(bdn,bdn)" }}{PARA 6 "" 1 "" {TEXT -1 44 "Applying routine factor \+
+to object R(bdn,bdn)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$
+\"#?!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "grmap(_,autoAli
+as,`x`);" }}{PARA 6 "" 1 "" {TEXT -1 40 "Applying routine autoAlias to
+ R(bdn,bdn)" }}{PARA 7 "" 1 "" {TEXT -1 51 "Warning, alias or macro a[
+T] defined in terms of a\n" }}{PARA 7 "" 1 "" {TEXT -1 51 "Warning, al
+ias or macro b[T] defined in terms of b\n" }}{PARA 7 "" 1 "" {TEXT -1 
+51 "Warning, alias or macro c[T] defined in terms of c\n" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%\"RG6$%$bdnGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&
+&%\"RG6#%$(a)G\"\"\"&%!G6#%$(b)GF)-%'matrixG6#7&7&,$*&,,*&)-%$expG6#%
+\"cG\"\"#F))-F96#%\"bGF<F)F<*$)F8\"\"%F)!\"\"*$)-F96#%\"aGFCF)F)*$)F>F
+CF)FD*&F<F)&FI6$%\"TGFOF)F)F)*(F7F))FGF<F)F=F)FD#F)F<\"\"!FSFS7&FS,$*&
+,,*&FQF)F7F)!\"#FAF)FEF)FJFD*&F<F)&F@FNF)FDF)*(F7F)FQF)F=F)FD#FDF<FSFS
+7&FSFS,$*&,,*&FQF)F=F)FYFJF)FEF)FAFD*&F<F)&F;FNF)FDF)*(F7F)FQF)F=F)FDF
+gnFS7&FSFSFS*&,.FMFD*(F<F)&FI6#FOF)&F@FeoF)F)*(F<F)FdoF)&F;FeoF)F)FenF
+D*(F<F)FfoF)FhoF)F)F^oFDF)*(F7F)FQF)F=F)FD" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 115 "### WARNING: calls to `C` for generating C code sh
+ould be replaced by codegen[C]\ngrcalcalter(C(bdn,bdn,bdn,bdn),8);" }}
+{PARA 6 "" 1 "" {TEXT -1 50 "Simplification will be applied during cal
+culation." }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 
+46 "Applying routine normal to object bRicciscalar" }}{PARA 6 "" 1 "" 
+{TEXT -1 52 "Applying routine normal to object C(bdn,bdn,bdn,bdn)" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#?!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "gralter(_,6,7);" }}{PARA 6 "" 1 "" 
+{TEXT -1 48 "Component simplification of a GRTensorII object:" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 52 "Applying \+
+routine expand to object C(bdn,bdn,bdn,bdn)" }}{PARA 6 "" 1 "" {TEXT 
+-1 52 "Applying routine factor to object C(bdn,bdn,bdn,bdn)" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#]!\"$" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 23 "grmap(_,autoAlias,`x`);" }}{PARA 6 "" 1 "" 
+{TEXT -1 48 "Applying routine autoAlias to C(bdn,bdn,bdn,bdn)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%8For~the~mix1~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%/Covariant~WeylG" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/&
+%\"CG6#%0(1)~(2)~(1)~(2)G,$*&,:*&)-%$expG6#%\"aG\"\"#\"\"\")-F.6#%\"bG
+F1F2!\"#*&)-F.6#%\"cGF1F2F3F2F2*&F,F2F9F2F2*$)F-\"\"%F2F2*$)F4F@F2F2*&
+F1F2)F:F@F2!\"\"*(F@F2&F06#%\"TGF2&F6FHF2F2&F06$FIFIFE&F6FLFE*&F1F2&F<
+FLF2F2*(F1F2FGF2&F<FHF2FE*(F1F2FJF2FQF2FEF2*(F9F2F,F2F3F2FE#F2\"\"'" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"CG6#%0(1)~(2)~(3)~(4)G,$*&,0*&)-
+%$expG6#%\"cG\"\"#\"\"\"&F06#%\"TGF2!\"#*&)-F.6#%\"bGF1F2&F;F4F2F2*&)-
+F.6#%\"aGF1F2&FAF4F2F2*&FBF2F8F2!\"\"*&FBF2F,F2F2*&F<F2F>F2FD*&F<F2F,F
+2F2F2*(F,F2F>F2F8F2FD#F2F1" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/&%\"CG6
+#%0(1)~(3)~(1)~(3)G,$*&,:*&)-%$expG6#%\"aG\"\"#\"\"\")-F.6#%\"bGF1F2F2
+*&)-F.6#%\"cGF1F2F3F2F2*(F1F2F,F2F8F2!\"\"*$)F-\"\"%F2F2*&F1F2)F4F@F2F
+=*$)F9F@F2F2*(F@F2&F06#%\"TGF2&F;FGF2F2&F06$FHFHF=*&F1F2&F6FKF2F2&F;FK
+F=*(F1F2FFF2&F6FGF2F=*(F1F2FPF2FIF2F=F2*(F8F2F,F2F3F2F=#F2\"\"'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"CG6#%0(1)~(3)~(2)~(4)G,$*&,0*&)-%
+$expG6#%\"bG\"\"#\"\"\"&F06#%\"TGF2!\"#*&)-F.6#%\"cGF1F2&F;F4F2F2*&)-F
+.6#%\"aGF1F2&FAF4F2F2*&F<F2F>F2!\"\"*&F<F2F,F2F2*&FBF2F8F2FD*&FBF2F,F2
+F2F2*(F8F2F>F2F,F2FD#FDF1" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/&%\"CG6#
+%0(1)~(4)~(1)~(4)G,$*&,:*&)-%$expG6#%\"aG\"\"#\"\"\")-F.6#%\"bGF1F2!\"
+\"*(F1F2)-F.6#%\"cGF1F2F3F2F2*&F,F2F9F2F7*&F1F2)F-\"\"%F2F2*$)F4F@F2F7
+*&F1F2&F06$%\"TGFFF2F7*$)F:F@F2F7*(F1F2&F06#FFF2&F6FKF2F2*(F1F2FJF2&F<
+FKF2F2&F6FEF2&F<FEF2*(F@F2FLF2FNF2F7F2*(F9F2F,F2F3F2F7#F2\"\"'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"CG6#%0(1)~(4)~(2)~(3)G,$*&,0*&)-%
+$expG6#%\"aG\"\"#\"\"\"&F06#%\"TGF2F1*&)-F.6#%\"bGF1F2&F:F4F2!\"\"*&F;
+F2F,F2F<*&F;F2)-F.6#%\"cGF1F2F2*&F?F2&FBF4F2F<*&FDF2F,F2F<*&FDF2F7F2F2
+F2*(F?F2F,F2F7F2F<#F<F1" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/&%\"CG6#%0
+(2)~(3)~(2)~(3)G,$*&,:*&)-%$expG6#%\"aG\"\"#\"\"\")-F.6#%\"bGF1F2!\"\"
+*(F1F2)-F.6#%\"cGF1F2F3F2F2*&F,F2F9F2F7*&F1F2)F-\"\"%F2F2*$)F4F@F2F7*&
+F1F2&F06$%\"TGFFF2F7*$)F:F@F2F7*(F1F2&F06#FFF2&F6FKF2F2*(F1F2FJF2&F<FK
+F2F2&F6FEF2&F<FEF2*(F@F2FLF2FNF2F7F2*(F9F2F,F2F3F2F7#F7\"\"'" }}{PARA 
+12 "" 1 "" {XPPMATH 20 "6#/&%\"CG6#%0(2)~(4)~(2)~(4)G,$*&,:*&)-%$expG6
+#%\"aG\"\"#\"\"\")-F.6#%\"bGF1F2F2*&)-F.6#%\"cGF1F2F3F2F2*(F1F2F,F2F8F
+2!\"\"*$)F-\"\"%F2F2*&F1F2)F4F@F2F=*$)F9F@F2F2*(F@F2&F06#%\"TGF2&F;FGF
+2F2&F06$FHFHF=*&F1F2&F6FKF2F2&F;FKF=*(F1F2FFF2&F6FGF2F=*(F1F2FPF2FIF2F
+=F2*(F8F2F,F2F3F2F=#F=\"\"'" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/&%\"CG
+6#%0(3)~(4)~(3)~(4)G,$*&,:*&)-%$expG6#%\"aG\"\"#\"\"\")-F.6#%\"bGF1F2!
+\"#*&)-F.6#%\"cGF1F2F3F2F2*&F,F2F9F2F2*$)F-\"\"%F2F2*$)F4F@F2F2*&F1F2)
+F:F@F2!\"\"*(F@F2&F06#%\"TGF2&F6FHF2F2&F06$FIFIFE&F6FLFE*&F1F2&F<FLF2F
+2*(F1F2FGF2&F<FHF2FE*(F1F2FJF2FQF2FEF2*(F9F2F,F2F3F2FE#FE\"\"'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "grcalc(Rinvars);" }}{PARA 6 
+"" 1 "" {TEXT -1 25 "Scalar invariant library." }}{PARA 6 "" 1 "" 
+{TEXT -1 28 "Last modified 25 March 1997." }}{PARA 6 "" 1 "" {TEXT -1 
+34 "Created definition for S(bup,bdn) " }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/%*CPU~Time~G$\"$@%!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 15 "gralter(_,6,7);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Component simpli
+fication of a GRTensorII object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}
+{PARA 6 "" 1 "" {TEXT -1 45 "Applying routine expand to object Riccisc
+alar" }}{PARA 6 "" 1 "" {TEXT -1 36 "Applying routine expand to object
+ R1" }}{PARA 6 "" 1 "" {TEXT -1 36 "Applying routine expand to object \+
+R2" }}{PARA 6 "" 1 "" {TEXT -1 36 "Applying routine expand to object R
+3" }}{PARA 6 "" 1 "" {TEXT -1 45 "Applying routine factor to object Ri
+cciscalar" }}{PARA 6 "" 1 "" {TEXT -1 36 "Applying routine factor to o
+bject R1" }}{PARA 6 "" 1 "" {TEXT -1 36 "Applying routine factor to ob
+ject R2" }}{PARA 6 "" 1 "" {TEXT -1 36 "Applying routine factor to obj
+ect R3" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$T&!\"$" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 106 "To save space here we display onl
+y R and R2.Increase grOptionDisplayLimit to display the other invarian
+ts." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "grdisplay(Ricciscalar,R2);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~the~mix1~spacetime:G" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%-Ricci~scalarG" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#/%#R~G,$*&,:*&)-%$expG6#%\"cG\"\"#\"\"\")-F+6#%\"bGF.F/
+!\"#*$)F*\"\"%F/F/*$)-F+6#%\"aGF7F/F/*$)F1F7F/F/*&F7F/&F<6$%\"TGFBF/!
+\"\"*(F.F/)F:F.F/F)F/FC*&F7F/&F3FAF/FC*(F.F/FEF/F0F/FC*&F7F/&F-FAF/FC*
+(F7F/&F<6#FBF/&F3FMF/F/*(F7F/FLF/&F-FMF/F/*(F7F/FNF/FPF/F/F/*(F)F/FEF/
+F0F/FC#FCF." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%0CM~invariant~R2G" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#/%$R2~G,$*&*(,6&%\"bG6$%\"TGF,!\"%*&\"
+\"$\"\"\")-%$expG6#F*\"\"%F0!\"\"*$)-F36#%\"cGF5F0F0*(\"\"#F0)F9F=F0)F
+2F=F0F0*(F=F0)-F36#%\"aGF=F0F?F0F0*(F=F0FAF0F>F0F6*$)FBF5F0F0*(F5F0&F*
+6#F,F0&F;FJF0F0*(F5F0&FDFJF0FKF0F0*(F5F0FMF0FIF0F0F0,6F7F/*(F=F0F>F0F?
+F0F6*(F=F0FAF0F>F0F6*&F5F0&F;F+F0F0*(F5F0FMF0FIF0F6*(F=F0FAF0F?F0F0*(F
+5F0FMF0FKF0F6FFF6*(F5F0FIF0FKF0F6*$F1F0F6F0,6F7F0*(F=F0FAF0F>F0F0*(F=F
+0F>F0F?F0F6*&F/F0FGF0F6*(F5F0FIF0FKF0F0*(F5F0FMF0FKF0F0*&F5F0&FDF+F0F6
+FXF0*(F=F0FAF0F?F0F0*(F5F0FMF0FIF0F0F0F0*()F9\"\"'F0)FBF_oF0)F2F_oF0F6
+#!\"$\"$7&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "grcalc(Winvar
+s);" }}{PARA 6 "" 1 "" {TEXT -1 42 "Created definition for C(bdn,bdn,b
+up,bup) " }}{PARA 6 "" 1 "" {TEXT -1 42 "Created definition for C(bup,
+bup,bup,bup) " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$I%!
+\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "gralter(_,6,7);" }}
+{PARA 6 "" 1 "" {TEXT -1 48 "Component simplification of a GRTensorII \+
+object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 
+37 "Applying routine expand to object W1R" }}{PARA 6 "" 1 "" {TEXT -1 
+37 "Applying routine expand to object W1I" }}{PARA 6 "" 1 "" {TEXT -1 
+37 "Applying routine expand to object W2R" }}{PARA 6 "" 1 "" {TEXT -1 
+37 "Applying routine expand to object W2I" }}{PARA 6 "" 1 "" {TEXT -1 
+37 "Applying routine factor to object W1R" }}{PARA 6 "" 1 "" {TEXT -1 
+37 "Applying routine factor to object W1I" }}{PARA 6 "" 1 "" {TEXT -1 
+37 "Applying routine factor to object W2R" }}{PARA 6 "" 1 "" {TEXT -1 
+37 "Applying routine factor to object W2I" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%*CPU~Time~G$\"$^'!\"$" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 110 "To save space here we display only W1R and W1I. Increase
+ grOptionDisplayLimit to display the other invariants." }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 14 "grdisplay(W1);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%8For~the~mix1~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4
+CM~invariant~Re(W1)G" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/%%W1R~G,$*&,^
+u*&)-%$expG6#%\"bG\"\"'\"\"\")-F+6#%\"aG\"\"#F/!\"\"*&)F1F.F/)-F+6#%\"
+cGF4F/F5*,\"\"%F/F0F/F8F/&F36#%\"TGF/&F-F?F/F5*,F=F/F0F/)F*F4F/FAF/&F;
+F?F/F5*,F4F/F0F/FCF/F>F/FAF/F/*,F=F/F0F/FCF/F>F/FDF/F5*,F4F/F0F/F8F/F>
+F/FDF/F/*,F=F/F0F/F8F/FAF/FDF/F5*&)F9F.F/F0F/F5*(F=F/)F>F4F/)FAF4F/F/*
+(F=F/FLF/)FDF4F/F/*(F=F/FMF/FOF/F/*$)F1\"\")F/F/*$)F*FSF/F/*$)F9FSF/F/
+*&FJF/FCF/F5*&F8F/F)F/F5*,F=F/F8F/FCF/F>F/FAF/F5*,F=F/F8F/FCF/F>F/FDF/
+F5*,F4F/F8F/FCF/FAF/FDF/F/**F4F/F8F/FCF/&F36$F@F@F/F5*(F4F/)F1F=F/FhnF
+/F5*&FhnF/&F;FinF/F5*&)F9F=F/FhnF/F/*&FhnF/&F-FinF/F5*&)F*F=F/FhnF/F/*
+(\"\"$F/FLF/FcoF/F5*(FeoF/FLF/F_oF/F5*(FeoF/FMF/F[oF/F5*(FeoF/FMF/F_oF
+/F5*(\"\"*F/FcoF/FMF/F5**F.F/FMF/F0F/F8F/F/**F.F/FLF/FCF/F8F/F/*(FeoF/
+FOF/FcoF/F5*(FjoF/F[oF/FLF/F5*(FjoF/F_oF/FOF/F5**F.F/FOF/F0F/FCF/F/*(F
+eoF/FOF/F[oF/F5**\"#6F/FcoF/F>F/FAF/F/*(F8F/FCF/F[oF/F/*(F_oF/FCF/F0F/
+F/*(F8F/FcoF/F0F/F/**\"\"(F/F_oF/F>F/FAF/F5**FcpF/F_oF/F>F/FDF/F/**Fcp
+F/F_oF/FAF/FDF/F/**FcpF/F[oF/F>F/FAF/F/**FcpF/F[oF/F>F/FDF/F/**FhpF/F[
+oF/FAF/FDF/F5**FhpF/FcoF/F>F/FDF/F5**FcpF/FcoF/FAF/FDF/F/**F=F/FLF/FAF
+/FDF/F5**F=F/F>F/FMF/FDF/F5**F=F/F>F/FOF/FAF/F5*&FcoF/F]oF/F/*&F[oF/Fa
+oF/F/*&F_oF/FaoF/F/*&F7F/FCF/F5*(F4F/FcoF/FaoF/F5*&F[oF/F]oF/F/*(F4F/F
+_oF/F]oF/F5*&FaoF/F]oF/F5*(F8F/FCF/FaoF/F/*(F8F/FCF/F]oF/F/*(FhnF/F0F/
+F8F/F/*(FhnF/F0F/FCF/F/**F4F/FhnF/F>F/FAF/F5**F4F/FhnF/F>F/FDF/F5**F=F
+/FhnF/FAF/FDF/F/**F4F/F0F/F8F/FaoF/F5*(F0F/F8F/F]oF/F/*(FaoF/F0F/FCF/F
+/**F4F/FaoF/F>F/FAF/F5**F=F/FaoF/F>F/FDF/F/**F4F/FaoF/FAF/FDF/F5**F4F/
+F0F/FCF/F]oF/F5**F=F/F]oF/F>F/FAF/F/**F4F/F]oF/F>F/FDF/F5**F4F/F]oF/FA
+F/FDF/F5*$)FhnF4F/F/*$)F]oF4F/F/*$)FaoF4F/F/F/*(F_oF/F[oF/FcoF/F5#F/F.
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4CM~invariant~Im(W1)G" }}{PARA 
+12 "" 1 "" {XPPMATH 20 "6#/%%W1I~G,$*&*&-%%sqrtG6#,$*&*()-%$expG6#%\"c
+G\"\"%\"\"\")-F06#%\"aGF3F4)-F06#%\"bGF3F4F4*&,&%$PsiGF4F4!\"\"F4,&F?F
+4F4F4F4F@F@F4,jr*&)F6\"\"'F4&F86#%\"TGF4\"\"#*,F3F4FFF4&F2FGF4)F:FIF4&
+F<FGF4F@*,F3F4FFF4FMF4)F/FIF4FKF4F@*,F3F4FFF4FMF4FKF4)F6FIF4F@*&FMF4FD
+F4F@*&FMF4)F/FEF4F@*(FOF4F9F4FFF4F4*(FQF4F.F4FKF4F@*(F5F4FOF4FFF4F@*(F
+QF4F9F4FKF4F4*(F5F4FLF4FFF4F@*(FIF4FTF4FKF4F4*&FTF4FFF4F@*(FQF4F9F4FMF
+4F@*(FMF4F5F4FOF4F4*(FMF4FQF4F.F4F4**FIF4)FMFIF4FQF4FFF4F@**FIF4FjnF4F
+QF4FKF4F4**FIF4FjnF4FOF4FFF4F4**FIF4FjnF4FOF4FKF4F@**FIF4)FFFIF4FMF4FO
+F4F4**FIF4F_oF4FMF4FLF4F@**FIF4FjnF4FKF4FLF4F4**FIF4FMF4)FKFIF4FOF4F4*
+*FIF4FMF4FcoF4FQF4F4**FIF4FMF4FcoF4FLF4F@*(F5F4FLF4FKF4F4*(FOF4F9F4FMF
+4F@*(F.F4FLF4FKF4F@*(F.F4FLF4FFF4F4**FIF4FFF4FcoF4FOF4F4**FIF4F_oF4FKF
+4FQF4F4**FIF4FFF4FcoF4FQF4F@**FIF4FFF4FcoF4FLF4F4**FIF4F_oF4FKF4FOF4F@
+**FIF4F_oF4FKF4FLF4F4**FIF4FFF4FjnF4FLF4F4**FIF4F_oF4FMF4FQF4F4*&)F:FE
+F4FFF4F@*&FDF4FKF4F@*(FIF4FcpF4FMF4F4*&FcpF4FKF4F@*(FMF4FQF4&F26$FHFHF
+4F@*(&F8FipF4FKF4FQF4F4*(FMF4FOF4FhpF4F4*(FMF4FQF4F[qF4F4*(F[qF4FKF4FL
+F4F@**FIF4&F<FipF4FLF4FMF4F@*(F`qF4FOF4FKF4F4*(F`qF4FQF4FFF4F4*(F`qF4F
+KF4FQF4F@*(F`qF4FKF4FLF4F4*(F`qF4FFF4FOF4F@*(F`qF4FFF4FLF4F4*(F[qF4FLF
+4FMF4F4*(F[qF4FOF4FKF4F4**FIF4F[qF4FQF4FFF4F@*(FhpF4FLF4FMF4F4**FIF4Fh
+pF4FOF4FKF4F@*(FhpF4FQF4FFF4F4*(FhpF4FFF4FOF4F4*(FhpF4FFF4FLF4F@*(FMF4
+FOF4F[qF4F@F4F4*(F.F4F5F4F9F4F@#F@FI" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "16 6" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 
+1 }{PAGENUMBERS 0 1 2 33 1 1 }

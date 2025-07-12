@@ -1,0 +1,103 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 
+1 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font
+ 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 10 255 0 0 1 2 1 2 0 0 0 
+0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 
+1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 1 2 2 2 0 0 0 0 0 0 1 }0 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 80 "Demonstration 1(CY):Defini
+tion of the Cotton-York tensor, divergence and trace. " }}{PARA 0 "" 
+0 "" {TEXT -1 86 "Calculation for the \"combed hedgehog\" metric (see \+
+J G Williams, Phys. Rev D 49, 1117)." }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 8 "restart:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "grtw();" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%=GRTensorII~Version~1.79~(R6)G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%06~February~2001G" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%ZDeveloped~by~Peter~Musgrave,~Denis~Pollney~and~Kayl
+l~LakeG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%DCopyright~1994-2001~by~th
+e~authors.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%inLatest~version~avail
+able~from:~http://grtensor.phy.queensu.ca/G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%4e:/Grtii(6)/MetricsG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "qload(hedge);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2D
+efault~spacetimeG%&hedgeG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%9For~the
+~hedge~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7%%\"tG%&thetaG%\"rG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%-Line~elementG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/*$)%$~dsG\"\"#\"\"\",**(-%$cosG6#,$-%&alphaG6#%\"rGF'F
+(%#~dGF()%\"tG%#2~GF(!\"\"*0F'F(F2F(-%$sinGF-F(F3F()F5%\"~GF(%#d~GF()%
+&thetaGF<F(F7**)F2F'F(F+F(F3F()F?F6F(F(*&F3F()F2F6F(F(" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%QCombed~hedgehog~metric~(Williams~G.R.G.~23,~181)
+G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 74 "grdef(`CY\{^a ^b\}:=2*
+LevC\{^a^c^d\}*(R\{^b c ;d\}-kdelta\{^b c\}*R\{^f f ;d\}/4)`);" }}
+{PARA 6 "" 1 "" {TEXT -1 32 "Created definition for R(up,dn) " }}
+{PARA 6 "" 1 "" {TEXT -1 37 "Created a definition for R(up,dn,cdn)" }}
+{PARA 6 "" 1 "" {TEXT -1 32 "Created definition for CY(up,up)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "grdef(`CY\{^a\}:=CY\{^a^b;b
+\}`);" }}{PARA 6 "" 1 "" {TEXT -1 38 "Created a definition for CY(up,u
+p,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 29 "Created definition for CY(up)" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "grdef(`CY:=CY\{a ^a\}`);
+" }}{PARA 6 "" 1 "" {TEXT -1 33 "Created definition for CY(dn,up) " }}
+{PARA 6 "" 1 "" {TEXT -1 25 "Created definition for CY" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "grcalc(CY(dn,up),CY(up),CY);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$+$!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "gralter(_,2,5,7);" }}{PARA 6 "" 1 "
+" {TEXT -1 48 "Component simplification of a GRTensorII object:" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 53 "Applying \+
+routine `simplify[trig]` to object CY(dn,up)" }}{PARA 6 "" 1 "" {TEXT 
+-1 50 "Applying routine `simplify[trig]` to object CY(up)" }}{PARA 6 "
+" 1 "" {TEXT -1 46 "Applying routine `simplify[trig]` to object CY" }}
+{PARA 6 "" 1 "" {TEXT -1 56 "Applying routine `simplify[radical]` to o
+bject CY(dn,up)" }}{PARA 6 "" 1 "" {TEXT -1 53 "Applying routine `simp
+lify[radical]` to object CY(up)" }}{PARA 6 "" 1 "" {TEXT -1 49 "Applyi
+ng routine `simplify[radical]` to object CY" }}{PARA 6 "" 1 "" {TEXT 
+-1 43 "Applying routine factor to object CY(dn,up)" }}{PARA 6 "" 1 "" 
+{TEXT -1 40 "Applying routine factor to object CY(up)" }}{PARA 6 "" 1 
+"" {TEXT -1 36 "Applying routine factor to object CY" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#/%*CPU~Time~G$\"$5$!\"$" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 23 "grmap(_,autoAlias,`x`);" }}{PARA 6 "" 1 "" {TEXT 
+-1 39 "Applying routine autoAlias to CY(dn,up)" }}{PARA 7 "" 1 "" 
+{TEXT -1 59 "Warning, alias or macro alpha[r] defined in terms of alph
+a\n" }}{PARA 6 "" 1 "" {TEXT -1 36 "Applying routine autoAlias to CY(u
+p)" }}{PARA 6 "" 1 "" {TEXT -1 32 "Applying routine autoAlias to CY" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#%9For~the~hedge~spacetime:G" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%*CY(dn,up)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#CY
+G6$%#dnG%#upG" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/*&&%#CYG6#%\"tG\"\"
+\")%!G%\"tGF),$*&*&,0*()%\"rG\"\"#F)-%$sinG6#,$%&alphaGF4F))&F96#F3F4F
+)\"\"%**F4F)-%$cosGF7F))F3\"\"$F)&F96%F3F3F3F)F)**F=F))F;FBF)FAF)F?F)F
+)**\"\"(F)F3F)F?F)F;F)F)**\"\"*F)F3F))F?FBF)F;F)!\"\"**F=F)F2F)F?F)&F9
+6$F3F3F)F)*&)F?F4F)F5F)F)F)-%%csgnGF<F)F)*$FAF)FLFL" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#/*&&%#CYG6#%&thetaG\"\"\")%!G%\"tGF),$*&*&,.*(-%$sinG
+6#,$%&alphaG\"\"#F)&F66$%\"rGF:F)F:F)\"\"***F7F)F2F))F:F7F)&F66%F:F:F:
+F)F)**\"\"%F)F2F))&F66#F:\"\"$F)F=F)F)*(\"\"'F)F2F)FCF)F)**F;F)F2F)FCF
+))-%$cosGF4F7F)!\"\"**FGF)FJF))FCF7F)F:F)F)F)-%%csgnGFDF)F)F:FLFL" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#/*&&%#CYG6#%\"tG\"\"\")%!G%&thetaGF)*&
+*&,2*(-%$sinG6#,$%&alphaG\"\"#F)&F56$%\"rGF9F))F9F6F)\"\"$**\"\"%F))F9
+F;F)F1F))&F56#F9F;F)!\"\"**\"\"'F)F1F)F@F)F9F)FB*,\"\"*F)F9F)F1F)F@F))
+-%$cosGF3F6F)F)**F6F)F1F)F>F)&F56%F9F9F9F)FB**FDF)F:F)FHF))F@F6F)F)*&F
+;F)FHF)FB*&F;F))FHF;F)F)F)-%%csgnGFAF)F)*$)F9F=F)FB" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#/*&&%#CYG6#%&thetaG\"\"\")%!G%&thetaGF)*&*&,0*()%\"rG
+\"\"#F)-%$sinG6#,$%&alphaGF3F))&F86#F2F3F)!\"%**\"\"&F)F2F)-%$cosGF6F)
+F:F)F)**\"\"*F)F2F))F?\"\"$F)F:F)!\"\"**F3F)F?F))F2FDF)&F86%F2F2F2F)F)
+**F3F)F1F)F?F)&F86$F2F2F)F)**\"\"%F))F:FDF)FGF)F?F)F)*(F3F))F?F3F)F4F)
+F)F)-%%csgnGF;F)F)*$FGF)FE" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%#CY
+G6#%\"rG\"\"\")%!G%\"rGF)*&*&,**()%\"rG\"\"#F)-%$sinG6#,$%&alphaGF3F))
+&F86#F2F3F)\"\")**F3F)F2F)-%$cosGF6F)F:F)F)**F3F)F1F)F>F)&F86$F2F2F)F)
+*&)F>F3F)F4F)!\"\"F)-%%csgnGF;F)F)*$)F2\"\"$F)FE" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%'CY(up)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#CYG6#%#
+upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#CYG%\"aG%8All~components~ar
+e~zeroG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#CYG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%#CYG%8All~components~are~zeroG" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "9 13" 0 }{VIEWOPTS 1 1 0 1 1 1803 
+1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

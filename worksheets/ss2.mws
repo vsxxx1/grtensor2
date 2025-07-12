@@ -1,0 +1,171 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 
+1 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font
+ 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 10 255 0 0 1 2 1 2 0 0 0 
+0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 
+1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 1 2 2 2 0 0 0 0 0 0 1 }0 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 75 "Self-similar demostration \+
+2. The Einstein tensor and the Kretschmann scalar" }}{PARA 0 "" 0 "" 
+{TEXT -1 76 "are calculated for the spherically symmetric self-similar
+ metric in comoving" }}{PARA 0 "" 0 "" {TEXT -1 12 "coordinates." }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 27 "interface(labelling=false):" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 7 "grtw();" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%=GR
+TensorII~Version~1.79~(R6)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%06~Feb
+ruary~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%ZDeveloped~by~Peter~Mu
+sgrave,~Denis~Pollney~and~Kayll~LakeG" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#%DCopyright~1994-2001~by~the~authors.G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%inLatest~version~available~from:~http://grtensor.phy.q
+ueensu.ca/G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4e:/Grtii(6)/MetricsG
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "qload(ss2):" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/%2Default~spacetimeG%$ss2G" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%7For~the~ss2~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"x
+G6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7&
+%\"rG%&thetaG%$phiG%\"tG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%-Line~ele
+mentG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*$)%$~dsG\"\"#\"\"\",**(-%$e
+xpG6#-%'LambdaG6#*&%\"rGF(%\"tG!\"\"F(%#~dGF()F2%#2~GF(F(**)-%\"RGF0F'
+F()F3F'F(F5F()%&thetaGF7F(F(*,F9F(F<F()-%$sinG6#F>F'F(F5F()%$phiGF7F(F
+(*(-F,6#-%&DeltaGF0F(F5F()F3F7F(F4" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+%L~~~~Self-similar~metric~\"comoving~form\"~~~~G" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 27 "grOptionDisplayLimit:=7000:" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 81 "First we verify that the vector $\\xi^\{\\alpha
+\} = c(r,0,0,t)$ is indeed homothetic." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "grdef(`xi\{^a\}:=[c*r,0,0,c*t]`):" }}{PARA 6 "" 1 "" 
+{TEXT -1 35 "Components assigned for metric: ss2" }}{PARA 6 "" 1 "" 
+{TEXT -1 29 "Created definition for xi(up)" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 24 "grcalc(KillingTest[xi]):" }}{PARA 6 "" 1 "" {TEXT 
+-1 30 "Created definition for xi(dn) " }}{PARA 6 "" 1 "" {TEXT -1 35 "
+Created a definition for xi(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 35 "Cr
+eated a definition for xi(up,cdn)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/
+%*CPU~Time~G$\"$J$!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "g
+rdisplay(_);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%7For~the~ss2~spacetim
+e:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%5~Killing~Test~ResultG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/%1Killing~Test[xi]G/%gn~a~homothetic/
+conformal~Killing~vector~with~conformal~factorG%\"cG" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 70 "We now calculate the mixed Einstein tensor and \+
+the Kretschmann scalar." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "grcalc(G
+(dn,up),RiemSq);" }}{PARA 6 "" 1 "" {TEXT -1 32 "Created definition fo
+r G(dn,up) " }}{PARA 6 "" 1 "" {TEXT -1 38 "Created definition for R(d
+n,dn,up,up) " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$h'!\"
+$" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "The following substitutes  $
+\\xi=r/t$." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "grmap(_,subs,t=r/xi,`
+x`):" }}{PARA 6 "" 1 "" {TEXT -1 33 "Applying routine subs to G(dn,up)
+" }}{PARA 6 "" 1 "" {TEXT -1 31 "Applying routine subs to RiemSq" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 36 "We now convert to $\\xi$ derivativ
+es." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "grmap(_,convert,`x`,diff,xi)
+:" }}{PARA 6 "" 1 "" {TEXT -1 36 "Applying routine convert to G(dn,up)
+" }}{PARA 6 "" 1 "" {TEXT -1 34 "Applying routine convert to RiemSq" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 42 "The quatities are simplified and
+ factored." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "gralter(_,1,7);" }}
+{PARA 6 "" 1 "" {TEXT -1 48 "Component simplification of a GRTensorII \+
+object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 
+44 "Applying routine simplify to object G(dn,up)" }}{PARA 6 "" 1 "" 
+{TEXT -1 42 "Applying routine simplify to object RiemSq" }}{PARA 6 "" 
+1 "" {TEXT -1 42 "Applying routine factor to object G(dn,up)" }}{PARA 
+6 "" 1 "" {TEXT -1 40 "Applying routine factor to object RiemSq" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$\"\\!\"$" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 74 "In order to write the $\\xi$ derivatives \+
+as subscripts we use the autoAlias" }}{PARA 0 "" 0 "" {TEXT -1 31 "fea
+ture in the grtools package." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "grm
+ap(_,autoAlias,`x`):" }}{PARA 6 "" 1 "" {TEXT -1 38 "Applying routine \+
+autoAlias to G(dn,up)" }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: R corr
+esponds to a previously defined GRTensor object -- to avoid ambiguitie
+s, only its derivatives have been aliased." }}{PARA 7 "" 1 "" {TEXT 
+-1 60 "Warning, alias or macro Delta[xi] defined in terms of Delta\n" 
+}}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: R corresponds to a previously
+ defined GRTensor object -- to avoid ambiguities, only its derivatives
+ have been aliased." }}{PARA 7 "" 1 "" {TEXT -1 62 "Warning, alias or \+
+macro Lambda[xi] defined in terms of Lambda\n" }}{PARA 6 "" 1 "" 
+{TEXT -1 127 "Warning: R corresponds to a previously defined GRTensor \+
+object -- to avoid ambiguities, only its derivatives have been aliased
+." }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: R corresponds to a previou
+sly defined GRTensor object -- to avoid ambiguities, only its derivati
+ves have been aliased." }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: R cor
+responds to a previously defined GRTensor object -- to avoid ambiguiti
+es, only its derivatives have been aliased." }}{PARA 6 "" 1 "" {TEXT 
+-1 127 "Warning: R corresponds to a previously defined GRTensor object
+ -- to avoid ambiguities, only its derivatives have been aliased." }}
+{PARA 6 "" 1 "" {TEXT -1 36 "Applying routine autoAlias to RiemSq" }}
+{PARA 6 "" 1 "" {TEXT -1 127 "Warning: R corresponds to a previously d
+efined GRTensor object -- to avoid ambiguities, only its derivatives h
+ave been aliased." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 26 "We now displ
+ay the reults." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%7For~the~ss2~spacetime:G" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#%)G(dn,up)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+-%\"GG6$%#dnG%#upG" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/*&&%#G~G6#%\"rG
+\"\"\")%!G%\"rGF),$*&*(-%$expG6#,&%'LambdaG!\"\"%&DeltaGF5F),4-F16#,&F
+4F)F6F)F)*&)&%\"RG6#%#xiG\"\"#F)-F16#F6F)F5**-F>F?F)F=F)&F6F?F)FBF)F5*
+,FAF)F=F)-F16#F4F)FEF)F@F)F5*,FEF)FFF)FHF)F=F))F@FAF)F5**)FEFAF)FFF)FH
+F)F@F)F)*,FAF)FEF)FHF)&F>6$F@F@F)FKF)F)*(F<F)FHF)FKF)F)*&FMF)FHF)F)F)F
+KF)F)*&)%\"rGFAF)FMF)F5F5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%#G~G
+6#%\"tG\"\"\")%!G%\"rGF),$*&*(-%$expG6#,$%'LambdaG!\"\"F),**&&%\"RG6$%
+#xiGF;F)F;F)!\"#*(&F46#F;F)&F9F?F)F;F)F)*(&%&DeltaGF?F)F@F)F;F)F)*&-F9
+F?F)FBF)F5F))F;\"\"#F)F)*&)%\"rGFGF)FEF)F5F5" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#/*&&%#G~G6#%&thetaG\"\"\")%!G%&thetaGF),$*&*()%#xiG\"\"
+#F),>*(&%'LambdaG6#F1F)&%\"RGF7F)-%$expG6#%&DeltaGF)!\"#*(\"\"%F)&F96$
+F1F1F)F:F)F)**F2F)F8F)&F=F7F)F:F)F)*,F2F)F5F)-F;6#F6F)F8F)F0F)!\"\"*,F
+2F)F5F)FFF)-F9F7F)F1F)FH*,F2F)FDF)FFF)F8F)F0F)F)*,F2F)FJF)FDF)FFF)F1F)
+FH**F@F)FFF)FAF)F0F)FH**F5F)FDF)F:F)FJF)FH**F2F)&F=FBF)F:F)FJF)F)*()FD
+F2F)F:F)FJF)F)*,F2F)&F6FBF)FFF)FJF)F0F)FH**)F5F2F)FFF)FJF)F0F)FH*,F5F)
+FFF)FDF)FJF)F0F)F)F)-F;6#,&F6FHF=FHF)F)*&)%\"rGF2F)FJF)FH#F)F@" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#/*&&%#G~G6#%$phiG\"\"\")%!G%$phiGF),$*
+&*()%#xiG\"\"#F),>*(&%'LambdaG6#F1F)&%\"RGF7F)-%$expG6#%&DeltaGF)!\"#*
+(\"\"%F)&F96$F1F1F)F:F)F)**F2F)F8F)&F=F7F)F:F)F)*,F2F)F5F)-F;6#F6F)F8F
+)F0F)!\"\"*,F2F)F5F)FFF)-F9F7F)F1F)FH*,F2F)FDF)FFF)F8F)F0F)F)*,F2F)FJF
+)FDF)FFF)F1F)FH**F@F)FFF)FAF)F0F)FH**F5F)FDF)F:F)FJF)FH**F2F)&F=FBF)F:
+F)FJF)F)*()FDF2F)F:F)FJF)F)*,F2F)&F6FBF)FFF)FJF)F0F)FH**)F5F2F)FFF)FJF
+)F0F)FH*,F5F)FFF)FDF)FJF)F0F)F)F)-F;6#,&F6FHF=FHF)F)*&)%\"rGF2F)FJF)FH
+#F)F@" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%#G~G6#%\"rG\"\"\")%!G%\"
+tGF)*&*(-%$expG6#,$%&DeltaG!\"\"F),**&&%\"RG6$%#xiGF:F)F:F)!\"#*(&%'La
+mbdaG6#F:F)&F8F?F)F:F)F)*(&F3F?F)F@F)F:F)F)*&-F8F?F)FBF)F4F))F:\"\"#F)
+F)*&)%\"rGFFF)FDF)F4" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/*&&%#G~G6#%\"
+tG\"\"\")%!G%\"tGF),$*&*(-%$expG6#,&%'LambdaG!\"\"%&DeltaGF5F),4-F16#,
+&F4F)F6F)F)**-%\"RG6#%#xiGF)&F=F>F)&F4F>F)-F16#F6F)F)**\"\"#F)F<F)&F=6
+$F?F?F)FBF)F5*&)F@FEF)FBF)F5*,F<F)FAF)-F16#F4F)F@F))F?FEF)F)**)F<FEF)F
+AF)FKF)F?F)F5*,FEF)F@F)FKF)F<F)F?F)F5*(FIF)FKF)FMF)F)*&FOF)FKF)F)F)FMF
+)F)*&)%\"rGFEF)FOF)F5F5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%<Full~Cont
+raction~of~RiemannG" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/%#K~G,$*&*(,jr
+*.)-%\"RG6#%#xiG\"\"$\"\"\"-%$expG6#,&%'LambdaGF0%&DeltaGF0F0&F5F-F0&F
+,F-F0&F6F-F0F.F0\"#K*(F:F0-F26#,&F5\"\"#F6F0F0)F+F?F0F0*.\"\"%F0)F+FBF
+0)F7F?F0F1F0&F66$F.F.F0)F.F?F0!\"\"*,FCF0FDF0-F26#,$F5F?F0)F9F?F0)F.FB
+F0F0*.F?F0FCF0)F7F/F0FJF0F9F0FNF0FH*.F:F0F*F0FJF0&F,FFF0F9F0)F.F/F0F0*
+0FBF0FCF0&F5FFF0F1F0F7F0F9F0FGF0F0*.\"#;F0FCF0FUF0FJF0F7F0FSF0F0*.FWF0
+F*F0F1F0FMF0F8F0F.F0F0*.\"\")F0F@F0FMF0FJF0)F8F?F0FNF0F0*.FZF0F@F0FDF0
+FJF0FenF0FNF0F0*(F:F0-F26#,&F5F0*&F?F0F6F0F0F0FenF0FH*0F:F0F@F0FRF0F1F
+0F7F0F8F0FGF0F0*.FWF0FCF0F7F0F1F0FEF0F.F0FH*.F:F0F*F0FRF0F1F0F7F0F.F0F
+0*(FWF0)F8FBF0-F26#,$F6F?F0F0**F:F0F`oF0F1F0FGF0FH*0FBF0FCF0FUF0FJF0F7
+F0F9F0FNF0FH*.FZF0FCF0FUF0F1F0FEF0FGF0FH*0F:F0F@F0F1F0FRF0F9F0F8F0FGF0
+F0*&FWF0-F26#,&F5F?*&F?F0F6F0F0F0F0*,\"#CF0FCF0FDF0FJF0FGF0F0**FCF0FDF
+0FMF0FaoF0F0*,FZF0F@F0FenF0FMF0FaoF0F0*,\"#'*F0FenF0FJF0F@F0FGF0F0*,FZ
+F0F@F0FDF0FenF0FaoF0F0*,F?F0FCF0)F9F/F0FaoF0F7F0FH**FCF0)F7FBF0FJF0FNF
+0F0*,\"#kF0F8F0FJF0F*F0F.F0FH*,FipF0F<F0F8F0F+F0F.F0FH*,FZF0FCF0FPF0FJ
+F0FSF0F0*,FZF0FCF0FMF0FJF0FGF0F0*,FipF0)F8F/F0F1F0F+F0F.F0F0*,FipF0F^q
+F0FJF0F+F0FSF0FH**FWF0F`oF0FJF0FNF0F0**F:F0F<F0FenF0FGF0F0**F:F0FenF0F
+1F0F@F0FH*(FCF0)F9FBF0FaoF0F0**FWF0FCF0F1F0FMF0FH*(FWF0FCF0FJF0F0*.FWF
+0F*F0FDF0F8F0F1F0F.F0FH*.FWF0F*F0FMF0FJF0F8F0FSF0FH*.FBF0FCF0FDF0F1F0F
+MF0FGF0FH*0F:F0F@F0F1F0F7F0FenF0F9F0FGF0FH*.FWF0F*F0FDF0FJF0F8F0FSF0FH
+*.FZF0FCF0F7F0F1F0FMF0F.F0FH*.FZF0FCF0FDF0FJF0F9F0FSF0FH*.F?F0FCF0FepF
+0F1F0F7F0FGF0F0*.FZF0FCF0FDF0F1F0F9F0F.F0F0*.F?F0FCF0FPF0F1F0F9F0FGF0F
+0**F:F0F@F0)FRF?F0FaoF0F0**FBF0FCF0)FEF?F0FaoF0F0*0FBF0FCF0FEF0F1F0F7F
+0F9F0FGF0F0*,FBF0FCF0FEF0FaoF0FMF0F0*,FBF0FCF0)FUF?F0FJF0FNF0F0*,F:F0F
+@F0FJF0FbrF0FNF0F0*,FipF0F@F0F1F0FbrF0FGF0FH*.F:F0F@F0FRF0FaoF0F7F0F8F
+0FH*.FBF0FCF0FEF0FaoF0F7F0F9F0FH*.FBF0FCF0FUF0FJF0FDF0FNF0F0*0F:F0F@F0
+FJF0FRF0F9F0F8F0FNF0FH*.FBF0FCF0FUF0F1F0FMF0FGF0FH*.FipF0F*F0F1F0FRF0F
+9F0F.F0FHF0FNF0-F26#,&F5!\"#*&F?F0F6F0FHF0F0*&)%\"rGFBF0FCF0FH#F0FB" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 97 "Note that Kretschmann is of the \+
+form $f(\\xi)/r^\{n\}$. This holds for all the algebraic invariants." 
+}}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "14 12" 0 }{VIEWOPTS 
+1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

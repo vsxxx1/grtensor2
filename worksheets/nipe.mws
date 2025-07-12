@@ -1,0 +1,162 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helveti
+ca" 1 10 255 0 0 1 2 1 2 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 
+1 2 2 2 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 82 "The problem of Nielsen and
+ Pendersen. Direct entry of metric from Belinskii et al," }}{PARA 0 "
+" 0 "" {TEXT -1 45 "transformation, and calculation of Ricci = 0." }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 7 "grtw();" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%=GRTenso
+rII~Version~1.79~(R6)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%06~February
+~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%ZDeveloped~by~Peter~Musgrav
+e,~Denis~Pollney~and~Kayll~LakeG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%D
+Copyright~1994-2001~by~the~authors.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%inLatest~version~available~from:~http://grtensor.phy.queensu.ca/G" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4e:/Grtii(6)/MetricsG" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 86 "First we enter the metric directly form B
+elinskii et al ((14) with (2), (3), and (4))." }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "makeg(nipe);" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}
+{PARA 6 "" 1 "" {TEXT -1 1 " " }}{PARA 6 "" 1 "" {TEXT -1 46 "Makeg 2.
+0: GRTensor metric/basis entry utility" }}{PARA 6 "" 1 "" {TEXT -1 1 "
+ " }}{PARA 6 "" 1 "" {TEXT -1 41 "To quit makeg, type 'exit' at any pr
+ompt." }}{PARA 6 "" 1 "" {TEXT -1 1 " " }}{PARA 6 "" 1 "" {TEXT -1 44 
+"Do you wish to enter a 1) metric [g(dn,dn)]," }}{PARA 6 "" 1 "" 
+{TEXT -1 44 "                       2) line element [ds]," }}{PARA 6 "
+" 1 "" {TEXT -1 63 "                       3) non-holonomic basis [e(1
+)...e(n)], or" }}{PARA 6 "" 1 "" {TEXT -1 49 "                       4
+) NP tetrad [l,n,m,mbar]?" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 2 "2;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"#" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 18 "[r,psi,t
+heta,phi];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7&%\"rG%$psiG%&thetaG%$p
+hiG" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 181 "1/alpha(r)*d[r]
+^2+r^2/4*(alpha(r)*(cos(psi)*d[theta]+sin(psi)*sin(theta)*d[phi])^2+1/
+beta(r)*(-sin(psi)*d[theta]+cos(psi)*sin(theta)*d[phi])^2+beta(r)*(d[p
+si]+cos(theta)*d[phi])^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&*$)&
+%\"dG6#%\"rG\"\"#\"\"\"F,-%&alphaGF)!\"\"F,*(#F,\"\"%F,)F*F+F,,(*&F-F,
+),&*&-%$cosG6#%$psiGF,&F(6#%&thetaGF,F,*(-%$sinGF;F,-FBF>F,&F(6#%$phiG
+F,F,F+F,F,*&*$),&*&FAF,F=F,F/*(F9F,FCF,FDF,F,F+F,F,-%%betaGF)F/F,*&FMF
+,),&&F(F;F,*&-F:F>F,FDF,F,F+F,F,F,F," }}}{EXCHG {PARA 0 "makeg>" 0 "" 
+{MPLTEXT 1 0 3 "\{\};" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<\"" }}}
+{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 2 "1;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "makeg>" 0 "" {MPLTEXT 1 0 2 
+"1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 61 "We now simplify it to see if any transformations are o
+bvious." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "gralter(g(dn,dn),trig,fa
+ctor);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Component simplification of a G
+RTensorII object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" 
+{TEXT -1 52 "Applying routine `simplify[trig]` to object g(dn,dn)" }}
+{PARA 6 "" 1 "" {TEXT -1 42 "Applying routine factor to object g(dn,dn
+)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#S!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%8For~the~nipe~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%8Covariant~metric~tensorG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%\"gG6$%#dnGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#
+g~G6#*&%\"rG\"\"\"%\"rGF)*&F)F)-%&alphaG6#%\"rG!\"\"" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#/&%#g~G6#*&%$psiG\"\"\"%$psiGF),$*&)%\"rG\"\"#F)-%%b
+etaG6#F.F)#F)\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#g~G6#*&%$psi
+G\"\"\"%$phiGF),$*()%\"rG\"\"#F)-%%betaG6#F.F)-%$cosG6#%&thetaGF)#F)\"
+\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#g~G6#*&%&thetaG\"\"\"%&thet
+aGF),$*&*&)%\"rG\"\"#F),(*(-%&alphaG6#F/F))-%$cosG6#%$psiGF0F)-%%betaG
+F5F)F)F)F)*$F6F)!\"\"F)F)F;F>#F)\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/&%#g~G6#*&%&thetaG\"\"\"%$phiGF),$*&*,)%\"rG\"\"#F)-%$cosG6#%$psiG
+F)-%$sinGF3F)-F66#%&thetaGF),&*&-%&alphaG6#F/F)-%%betaGF>F)F)F)!\"\"F)
+F)F?FA#F)\"\"%" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/&%#g~G6#*&%$phiG\"
+\"\"%$phiGF),$*&*&)%\"rG\"\"#F),0*&-%&alphaG6#F/F)-%%betaGF5F)F)*(F3F)
+F6F))-%$cosG6#%&thetaGF0F)!\"\"*(F3F))-F;6#%$psiGF0F)F6F)F>**F3F)F6F)F
+@F)F9F)F)*$F@F)F)*&F@F)F9F)F>*&)F6F0F)F9F)F)F)F)F6F>#F)\"\"%" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 92 "As a general rule, it is advantage
+ous to get rid of trigonometric functions which we now do." }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 76 "xform:=[R(r)=r,Psi(psi)=cos(psi),Theta(thet
+a)=cos(theta),Phi(phi)=cos(phi)];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%&xformG7&/-%\"RG6#%\"rGF*/-%$PsiG6#%$psiG-%$cosGF./-%&ThetaG6#%&theta
+G-F1F5/-%$PhiG6#%$phiG-F1F;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+32 "grtransform(nipe,newnipe,xform);" }}{PARA 6 "" 1 "" {TEXT -1 34 "T
+he new default metric is: newnipe" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 30 "gralter(g(dn,dn),trig,factor);" }}{PARA 6 "" 1 "" 
+{TEXT -1 48 "Component simplification of a GRTensorII object:" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 52 "Applying \+
+routine `simplify[trig]` to object g(dn,dn)" }}{PARA 6 "" 1 "" {TEXT 
+-1 42 "Applying routine factor to object g(dn,dn)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%*CPU~Time~G$\"#g!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%;Fo
+r~the~newnipe~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%8Covaria
+nt~metric~tensorG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"gG6$%#dnGF&" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#g~G6#*&%\"RG\"\"\"%\"RGF)*&F)F)-
+%&alphaG6#%\"rG!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#g~G6#*&%$P
+siG\"\"\"%$PsiGF),$*&*&)%\"rG\"\"#F)-%%betaG6#F/F)F)*&,&!\"\"F)-%$cosG
+6#%$psiGF)F),&F7F)F)F)F)F6#F6\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+/&%#g~G6#*&%$PsiG\"\"\"%$PhiGF),$*&*()%\"rG\"\"#F)-%%betaG6#F/F)-%$cos
+G6#%&thetaGF)F)*&-%$sinG6#%$psiGF)-F:6#%$phiGF)!\"\"#F)\"\"%" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/&%#g~G6#*&%&ThetaG\"\"\"%&ThetaGF),$*&*&)%
+\"rG\"\"#F),(*(-%&alphaG6#F/F))-%$cosG6#%$psiGF0F)-%%betaGF5F)F)F)F)*$
+F6F)!\"\"F)F)*(,&-F86#%&thetaGF)F)F>F),&FAF)F)F)F)F;F)F>#F>\"\"%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#g~G6#*&%&ThetaG\"\"\"%$PhiGF),$*&*
+*)%\"rG\"\"#F)-%$cosG6#%$psiGF)-%$sinGF3F),&*&-%&alphaG6#F/F)-%%betaGF
+;F)F)F)!\"\"F)F)*&F<F)-F66#%$phiGF)F>#F)\"\"%" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#/&%#g~G6#*&%$PhiG\"\"\"%$PhiGF),$*&*&)%\"rG\"\"#F),0*&-
+%&alphaG6#F/F)-%%betaGF5F)F)*(F3F)F6F))-%$cosG6#%&thetaGF0F)!\"\"*(F3F
+))-F;6#%$psiGF0F)F6F)F>**F3F)F6F)F@F)F9F)F)*$F@F)F)*&F@F)F9F)F>*&)F6F0
+F)F9F)F)F)F)*(,&-F;6#%$phiGF)F)F>F),&FKF)F)F)F)F6F)F>#F>\"\"%" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 55 "We clean up the metric in terms of
+ the new coordinates." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 151 "grmap(g(d
+n,dn),subs,r=R,cos(psi)=Psi,cos(phi)=Phi,cos(theta)=Theta,sin(theta)=(
+1-Theta^2)^(1/2),sin(phi)=(1-Phi^2)^(1/2),sin(psi)=(1-Psi^2)^(1/2),`x`
+);" }}{PARA 6 "" 1 "" {TEXT -1 33 "Applying routine subs to g(dn,dn)" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "gralter(_,simplify,factor
+);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Component simplification of a GRTen
+sorII object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" 
+{TEXT -1 44 "Applying routine simplify to object g(dn,dn)" }}{PARA 6 "
+" 1 "" {TEXT -1 42 "Applying routine factor to object g(dn,dn)" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$q\"!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%;For~the~newnipe~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%8Covariant~metric~tensorG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%\"gG6$%#dnGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#
+g~G6#*&%\"RG\"\"\"%\"RGF)*&F)F)-%&alphaG6#%\"RG!\"\"" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#/&%#g~G6#*&%$PsiG\"\"\"%$PsiGF),$*&*&)%\"RG\"\"#F)-%
+%betaG6#F/F)F)*&,&!\"\"F)%$PsiGF)F),&F7F)F)F)F)F6#F6\"\"%" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#/&%#g~G6#*&%$PsiG\"\"\"%$PhiGF),$*&*()%\"RG\"\"
+#F)-%%betaG6#F/F)%&ThetaGF)F)*&-%%sqrtG6#,$*&,&!\"\"F)%$PsiGF)F),&F=F)
+F)F)F)F<F)-F76#,$*&,&%$PhiGF)F)F)F),&FDF)F)F<F)F<F)F<#F)\"\"%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#g~G6#*&%&ThetaG\"\"\"%&ThetaGF),$*
+&*&)%\"RG\"\"#F),(*(-%&alphaG6#F/F))%$PsiGF0F)-%%betaGF5F)F)F)F)*$F6F)
+!\"\"F)F)*(,&%&ThetaGF)F)F;F),&F>F)F)F)F)F8F)F;#F;\"\"%" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/&%#g~G6#*&%&ThetaG\"\"\"%$PhiGF),$*&**)%\"RG\"
+\"#F)%$PsiGF)-%%sqrtG6#,$*&,&!\"\"F)F1F)F),&F1F)F)F)F)F8F),&*&-%&alpha
+G6#F/F)-%%betaGF>F)F)F)F8F)F)*&F?F)-F36#,$*&,&%$PhiGF)F)F)F),&FGF)F)F8
+F)F8F)F8#F)\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%#g~G6#*&%$PhiG
+\"\"\"%$PhiGF),$*&*&)%\"RG\"\"#F),0*&-%&alphaG6#F/F)-%%betaGF5F)F)*(F3
+F)F6F))%&ThetaGF0F)!\"\"*(F3F))%$PsiGF0F)F6F)F;**F3F)F6F)F=F)F9F)F)*$F
+=F)F)*&F=F)F9F)F;*&)F6F0F)F9F)F)F)F)*(,&%$PhiGF)F)F;F),&FFF)F)F)F)F6F)
+F;#F;\"\"%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 98 "We now calculate th
+e Ricci tensor, subtitute for the functions $\\alpha$ and $\\beta$, an
+d simplify." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "grcalc(R(dn,dn));" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$^&!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 107 "grmap(_,subs,alpha(R)=(1-a^4/R^4)^
+(1/2)*(1-b^4/R^4)^(1/2),beta(R)=(1-a^4/R^4)^(1/2)/(1-b^4/R^4)^(1/2),`x
+`);" }}{PARA 6 "" 1 "" {TEXT -1 33 "Applying routine subs to R(dn,dn)
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "gralter(_,expand,factor
+);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Component simplification of a GRTen
+sorII object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" 
+{TEXT -1 42 "Applying routine expand to object R(dn,dn)" }}{PARA 6 "" 
+1 "" {TEXT -1 42 "Applying routine factor to object R(dn,dn)" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$@\"!\"$" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%;For~the~newnipe~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#%0Covariant~RicciG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"RG6$%#dnGF&
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%#R~G6#%\"aG\"\"\"&%!G6#%\"bGF
+)%8All~components~are~zeroG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}}{MARK "21 4" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

@@ -1,0 +1,149 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" 0 21 "" 0 1 0 0 0 1 0 0 0 0 2 0 0 0 0 1 }{PSTYLE "Normal" 
+-1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 
+-1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 0 }1 0 0 -1 -1 -1 0 0 0 
+0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 2 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Warning" 2 7 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 1 0 0 0 }0 0 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {MPLTEXT 0 21 174 "Dust demonstration 3
+. Application of constraints to reduce the \n\nKretschmann scalar for \+
+the Tolman metric to the form given by \n\nBondi. The cosmological con
+stant is included." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "resta
+rt: grtw();" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%=GRTensorII~Version~1.
+79~(R6)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%06~February~2001G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%ZDeveloped~by~Peter~Musgrave,~Denis~P
+ollney~and~Kayll~LakeG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%DCopyright~
+1994-2001~by~the~authors.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%inLates
+t~version~available~from:~http://grtensor.phy.queensu.ca/G" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%4e:/Grtii(6)/MetricsG" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 18 "qload(dustlambda);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%2Default~spacetimeG%+dustlambdaG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%>For~the~dustlambda~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"x
+G6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7&
+%\"rG%&thetaG%$phiG%\"tG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%-Line~ele
+mentG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*$)%$~dsG\"\"#\"\"\",**&*()-
+%%diffG6$-%\"RG6$%\"rG%\"tGF3F'F(%#~dGF()F3%#2~GF(F(,&F(F(-%\"fG6#F3F(
+!\"\"F(*()F0F'F(F5F()%&thetaGF7F(F(**F>F()-%$sinG6#F@F'F(F5F()%$phiGF7
+F(F(*&F5F()F4F7F(F<" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/%,ConstraintsG
+7&/-%%diffG6%-%\"RG6$%\"rG%\"tGF-F.,$*&,**&-F(6$-%\"mG6#F-F-\"\"\"F*!
+\"\"\"\"#*&*(F:F8F5F8-F(6$F*F-F8F8*$)F*F:F8F9F9-F(6$-%\"fGF7F-F8**#F:
+\"\"$F8%'LambdaGF8F*F8F=F8F8F8*$-%%sqrtG6#,(*&F5F8F*F9\"#=*&\"\"*F8FCF
+8F8*(FGF8FHF8F@F8F8F8F9#FGF:/-F(6$F*F.,$*$-FK6#FMF8#F8FG/-F(6$F*-%\"$G
+6$F.F:,&*&F5F8*$F@F8F9F9*&#F8FGF8*&FHF8F*F8F8F9/-F(6%F*F-Fin,(*&F3F8*$
+F@F8F9F9*&*(F:F8F5F8F=F8F8*$)F*FGF8F9F8*&#F8FGF8*&FHF8F=F8F8F9" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%UThe~Tolman~dust~solution~with~cosmol
+ogical~constant~G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "grcalc
+(G(up,dn));" }}{PARA 6 "" 1 "" {TEXT -1 32 "Created definition for G(u
+p,dn) " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$6#!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "gralter(_,13,7,6);" }}{PARA 
+6 "" 1 "" {TEXT -1 48 "Component simplification of a GRTensorII object
+:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 66 "Appl
+ying routine `Apply constraints repeatedly` to object G(up,dn)" }}
+{PARA 6 "" 1 "" {TEXT -1 42 "Applying routine factor to object G(up,dn
+)" }}{PARA 6 "" 1 "" {TEXT -1 42 "Applying routine expand to object G(
+up,dn)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#?!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "grmap(_,autoAlias,`x`);" }}
+{PARA 6 "" 1 "" {TEXT -1 38 "Applying routine autoAlias to G(up,dn)" }
+}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: R corresponds to a previously \+
+defined GRTensor object -- to avoid ambiguities, only its derivatives \+
+have been aliased." }}{PARA 7 "" 1 "" {TEXT -1 51 "Warning, alias or m
+acro m[r] defined in terms of m\n" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%>Fo
+r~the~dustlambda~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%)G(up
+,dn)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"GG6$%#upG%#dnG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/*&)%#G~G%\"aG\"\"\"&%!G6#%\"bGF(-%'matrixG6
+#7&7&,$%'LambdaG!\"\"\"\"!F5F57&F5F2F5F57&F5F5F2F57&F5F5F5,&*&&%\"mG6#
+%\"rGF(*&)-%\"RG6$F>%\"tG\"\"#F(&FBF=F(F4!\"#F3F4" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 15 "grcalc(RiemSq);" }}{PARA 6 "" 1 "" {TEXT -1 
+38 "Created definition for R(dn,dn,up,up) " }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%*CPU~Time~G$\"$5\"!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "gralter(_,13,1,6);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Co
+mponent simplification of a GRTensorII object:" }}{PARA 6 "" 1 "" 
+{TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 64 "Applying routine `Apply c
+onstraints repeatedly` to object RiemSq" }}{PARA 6 "" 1 "" {TEXT -1 
+42 "Applying routine simplify to object RiemSq" }}{PARA 6 "" 1 "" 
+{TEXT -1 40 "Applying routine expand to object RiemSq" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#q!\"$" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 23 "grmap(_,autoAlias,`x`);" }}{PARA 6 "" 1 "" {TEXT 
+-1 36 "Applying routine autoAlias to RiemSq" }}{PARA 6 "" 1 "" {TEXT 
+-1 127 "Warning: R corresponds to a previously defined GRTensor object
+ -- to avoid ambiguities, only its derivatives have been aliased." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%>For~the~dustlambda~spacetime:G" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%<Full~Contraction~of~RiemannG" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/%#K~G,,*&*$)&%\"mG6#%\"rG\"\"#\"\"\"F.*&)-%\"RG6$F,%
+\"tG\"\"%F.)&F2F+F-F.!\"\"\"#7*&*&\"#[F.)F*F-F.F.*$)F1\"\"'F.F8F.*&*(#
+\"\")\"\"$F.F)F.%'LambdaGF.F.*&)F1F-F.F7F.F8F.*&*(\"#KF.F)F.F*F.F.*&)F
+1\"\"&F.F7F.F8F8*&FCF.)FFF-F.F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 15 "grcalc(WeylSq);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time
+~G$\"#H!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "gralter(_,13
+,7);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Component simplification of a GRT
+ensorII object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" 
+{TEXT -1 64 "Applying routine `Apply constraints repeatedly` to object
+ WeylSq" }}{PARA 6 "" 1 "" {TEXT -1 40 "Applying routine factor to obj
+ect WeylSq" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#I!\"$" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "grmap(_,autoAlias,`x`);" 
+}}{PARA 6 "" 1 "" {TEXT -1 36 "Applying routine autoAlias to WeylSq" }
+}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: R corresponds to a previously \+
+defined GRTensor object -- to avoid ambiguities, only its derivatives \+
+have been aliased." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdis
+play(_);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%>For~the~dustlambda~space
+time:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%9Full~Contraction~of~WeylG
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%(WeylSq~G,$*&*$),&*&&%\"mG6#%\"r
+G\"\"\"-%\"RG6$F.%\"tGF/F/*(\"\"$F/F,F/&F1F-F/!\"\"\"\"#F/F/*&)F0\"\"'
+F/)F6F8F/F7#\"#;F5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "grcal
+c(CMB);" }}{PARA 6 "" 1 "" {TEXT -1 25 "Scalar invariant library." }}
+{PARA 6 "" 1 "" {TEXT -1 28 "Last modified 25 March 1997." }}{PARA 6 "
+" 1 "" {TEXT -1 32 "Created definition for S(up,dn) " }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#/%*CPU~Time~G$\"$\">!\"$" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 16 "gralter(_,13,7);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Co
+mponent simplification of a GRTensorII object:" }}{PARA 6 "" 1 "" 
+{TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 69 "Applying routine `Apply c
+onstraints repeatedly` to object Ricciscalar" }}{PARA 6 "" 1 "" {TEXT 
+-1 60 "Applying routine `Apply constraints repeatedly` to object R1" }
+}{PARA 6 "" 1 "" {TEXT -1 60 "Applying routine `Apply constraints repe
+atedly` to object R2" }}{PARA 6 "" 1 "" {TEXT -1 61 "Applying routine \+
+`Apply constraints repeatedly` to object W2R" }}{PARA 6 "" 1 "" {TEXT 
+-1 45 "Applying routine factor to object Ricciscalar" }}{PARA 6 "" 1 "
+" {TEXT -1 36 "Applying routine factor to object R1" }}{PARA 6 "" 1 "
+" {TEXT -1 36 "Applying routine factor to object R2" }}{PARA 6 "" 1 "
+" {TEXT -1 37 "Applying routine factor to object W2R" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#/%*CPU~Time~G$\"$+\"!\"$" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 23 "grmap(_,autoAlias,`x`);" }}{PARA 6 "" 1 "" {TEXT 
+-1 41 "Applying routine autoAlias to Ricciscalar" }}{PARA 6 "" 1 "" 
+{TEXT -1 127 "Warning: R corresponds to a previously defined GRTensor \+
+object -- to avoid ambiguities, only its derivatives have been aliased
+." }}{PARA 6 "" 1 "" {TEXT -1 32 "Applying routine autoAlias to R1" }}
+{PARA 6 "" 1 "" {TEXT -1 127 "Warning: R corresponds to a previously d
+efined GRTensor object -- to avoid ambiguities, only its derivatives h
+ave been aliased." }}{PARA 6 "" 1 "" {TEXT -1 32 "Applying routine aut
+oAlias to R2" }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: R corresponds t
+o a previously defined GRTensor object -- to avoid ambiguities, only i
+ts derivatives have been aliased." }}{PARA 6 "" 1 "" {TEXT -1 33 "Appl
+ying routine autoAlias to W2R" }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning
+: R corresponds to a previously defined GRTensor object -- to avoid am
+biguities, only its derivatives have been aliased." }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%>For~the~dustlambda~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%-Ricci~scalarG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%#R~G,$*&,&&
+%\"mG6#%\"rG\"\"\"**\"\"#F,%'LambdaGF,)-%\"RG6$F+%\"tGF.F,&F2F*F,F,F,*
+&F0F,F5F,!\"\"F." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%0CM~invariant~R1G
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%$R1~G,$*&*$)&%\"mG6#%\"rG\"\"#\"
+\"\"F.*&)-%\"RG6$F,%\"tG\"\"%F.)&F2F+F-F.!\"\"#\"\"$F5" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%0CM~invariant~R2G" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/%$R2~G,$*&*$)&%\"mG6#%\"rG\"\"$\"\"\"F.*&)-%\"RG6$F,%\"tG\"\"'F
+.)&F2F+F-F.!\"\"#F-\"\")" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4CM~invar
+iant~Re(W2)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%%W2R~G,$*&*$),&*&&%
+\"mG6#%\"rG\"\"\"-%\"RG6$F.%\"tGF/F/*(\"\"$F/F,F/&F1F-F/!\"\"F5F/F/*&)
+F0\"\"*F/)F6F5F/F7#\"\"#F:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}}{MARK "18 9" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

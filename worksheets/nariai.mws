@@ -1,0 +1,90 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 
+256 1 {CSTYLE "" -1 -1 "Helvetica" 1 10 255 0 0 1 2 1 2 0 0 0 0 0 0 1 
+}0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 1 2 2 2 0 0 0 0 0 0 1 }0 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 43 "Demontration 1(nariai): Th
+e Nariai metric ." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "grtw();" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%=GRTensorII~Version~1.79~(R6)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%06~February~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+ZDeveloped~by~Peter~Musgrave,~Denis~Pollney~and~Kayll~LakeG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%DCopyright~1994-2001~by~the~authors.G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%inLatest~version~available~from:~http
+://grtensor.phy.queensu.ca/G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4e:/G
+rtii(6)/MetricsG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "qload(n
+ariai);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Default~spacetimeG%'nari
+aiG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%:For~the~nariai~spacetime:G" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~
+G%\"aG-%'vectorG6#7&%\"xG%\"yG%\"zG%\"tG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%-Line~elementG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*$)%$~dsG\"
+\"#\"\"\",**&*()%\"LGF'F(%#~dGF()%\"xG%#2~GF(F(,(*$)F0F'F(F(*$)%\"yGF'
+F(F(*$)%\"zGF'F(F(!\"\"F(*&*(F,F(F.F()F7F1F(F(F2F;F(*&*(F,F(F.F()F:F1F
+(F(F2F;F(*()-%\"PG6&F0F7F:%\"tGF'F(F.F()FGF1F(F;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%,ConstraintsG7#/-%\"PG6&%\"xG%\"yG%\"zG%\"tG,&*&-%\"a
+G6#F-\"\"\"-%$cosG6#-%#lnG6#*&*$-%%sqrtG6#,(*$)F*\"\"#F3F3*$)F+FBF3F3*
+$)F,FBF3F3F3F3%\"LG!\"\"F3F3*&-%\"bGF2F3-%$sinGF6F3F3" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "grcalc(R(dn,up));" }}{PARA 6 "" 1 "
+" {TEXT -1 32 "Created definition for R(dn,up) " }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%*CPU~Time~G$\"$,#!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "gralter(_,13);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Compon
+ent simplification of a GRTensorII object:" }}{PARA 6 "" 1 "" {TEXT 
+-1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 66 "Applying routine `Apply constra
+ints repeatedly` to object R(dn,up)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#/%*CPU~Time~G$\"$+\"!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+13 "grdisplay(_);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%:For~the~nariai~
+spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%)R(dn,up)G" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%\"RG6$%#dnG%#upG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/)&%#R~G6#%\"aG%\"bG-%'matrixG6#7&7&*&\"\"\"F0*$)%\"LG
+\"\"#F0!\"\"\"\"!F6F67&F6F/F6F67&F6F6F/F67&F6F6F6F/" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 11 "In a basis:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+15 "qload(nariaib);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Default~spac
+etimeG%(nariaibG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%;For~the~nariaib~
+spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7&%\"xG%\"yG%\"zG%\"tG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%4Basis~inner~productG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#-%$etaG6$%$bupGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/*&)%$etaG%$(a)G\"\"\")%!G%$(b)GF(-%'matrixG6#7&7&!\"\"\"\"!F2F27&F
+2F1F2F27&F2F2F1F27&F2F2F2F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%=Basis
+~(covariant~components)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#w1G6#%#
+dnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%'omega1G6#%\"aG-%'vectorG6#7
+&*&%\"LG\"\"\"*$-%%sqrtG6#,(*$)%\"xG\"\"#F.F.*$)%\"yGF7F.F.*$)%\"zGF7F
+.F.F.!\"\"\"\"!F?F?" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#w2G6#%#dnG" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%'omega2G6#%\"aG-%'vectorG6#7&\"\"
+!*&%\"LG\"\"\"*$-%%sqrtG6#,(*$)%\"xG\"\"#F/F/*$)%\"yGF8F/F/*$)%\"zGF8F
+/F/F/!\"\"F,F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#w3G6#%#dnG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%'omega3G6#%\"aG-%'vectorG6#7&\"\"!F
+,*&%\"LG\"\"\"*$-%%sqrtG6#,(*$)%\"xG\"\"#F/F/*$)%\"yGF8F/F/*$)%\"zGF8F
+/F/F/!\"\"F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#w4G6#%#dnG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%'omega4G6#%\"aG-%'vectorG6#7&\"\"!F
+,F,-%\"PG6&%\"xG%\"yG%\"zG%\"tG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%,
+ConstraintsG7#/-%\"PG6&%\"xG%\"yG%\"zG%\"tG,&*&-%\"aG6#F-\"\"\"-%$cosG
+6#-%#lnG6#*&*$-%%sqrtG6#,(*$)F*\"\"#F3F3*$)F+FBF3F3*$)F,FBF3F3F3F3%\"L
+G!\"\"F3F3*&-%\"bGF2F3-%$sinGF6F3F3" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "grcalc(R(bdn,bdn));" }}{PARA 6 "" 1 "" {TEXT -1 40 "C
+reated definition for rot(bdn,bup,bdn) " }}{PARA 6 "" 1 "" {TEXT -1 
+38 "Created a definition for e(bdn,dn,pdn)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%*CPU~Time~G$\"$+#!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "gralter(_,13);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Compon
+ent simplification of a GRTensorII object:" }}{PARA 6 "" 1 "" {TEXT 
+-1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 68 "Applying routine `Apply constra
+ints repeatedly` to object R(bdn,bdn)" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/%*CPU~Time~G$\"#g!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+13 "grdisplay(_);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"RG6$%$bdnGF&
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%\"RG6#%$(a)G\"\"\"&%!G6#%$(b)
+GF)-%'matrixG6#7&7&*&F)F)*$)%\"LG\"\"#F)!\"\"\"\"!F9F97&F9F3F9F97&F9F9
+F3F97&F9F9F9,$F3F8" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{MARK "9 2" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 
+33 1 1 }

@@ -1,0 +1,119 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Warning" 2 7 1 {CSTYLE "" -1 -1 "" 0 1 0 0 255 1 0 0 0 0 0 0 
+1 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font
+ 0" -1 256 1 {CSTYLE "" -1 -1 "Helvetica" 1 10 255 0 0 1 2 1 2 0 0 0 
+0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 2" -1 257 
+1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 1 2 2 2 0 0 0 0 0 0 1 }0 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 46 " Demonstration 1(diag3): W
+eyl-Schouten tensor " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "grtw();" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%=GRTensorII~Version~1.79~(R6)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%06~February~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+ZDeveloped~by~Peter~Musgrave,~Denis~Pollney~and~Kayll~LakeG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%DCopyright~1994-2001~by~the~authors.G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%inLatest~version~available~from:~http
+://grtensor.phy.queensu.ca/G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4e:/G
+rtii(6)/MetricsG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 54 "We load the g
+eneral diagonal three dimensional metric." }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 13 "qload(diag3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%
+2Default~spacetimeG%&diag3G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%9For~t
+he~diag3~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7%%\"xG%\"yG%\"zG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%-Line~elementG" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/*$)%$~dsG\"\"#\"\"\",(*(-%\"cG6%%\"xG%\"yG%\"zGF(%#~dGF()F.%#2~GF(
+F(*(-%\"dGF-F(F1F()F/F3F(F(*(-%\"eGF-F(F1F()F0F3F(F(" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 45 "The following define the Weyl-Scouten tensor:" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 88 "grdef(`WS\{a [ b c ] \}:=
+R\{a b ; c\}-R\{a c ; b\}-(g\{a b\}*R\{^e e; c\}-g\{a c\}*R\{^f f ; b
+\})/4`);" }}{PARA 6 "" 1 "" {TEXT -1 37 "Created a definition for R(dn
+,dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 32 "Created definition for R(up,d
+n) " }}{PARA 6 "" 1 "" {TEXT -1 37 "Created a definition for R(up,dn,c
+dn)" }}{PARA 6 "" 1 "" {TEXT -1 35 "Created definition for WS(dn,dn,dn
+)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "grcalc(WS(dn,dn,dn));
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$h$!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gralter(_,6);" }}{PARA 6 "" 
+1 "" {TEXT -1 48 "Component simplification of a GRTensorII object:" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 46 "Applying \+
+routine expand to object WS(dn,dn,dn)" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/%*CPU~Time~G$\"#5!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+23 "grmap(_,autoAlias,`x`);" }}{PARA 6 "" 1 "" {TEXT -1 42 "Applying r
+outine autoAlias to WS(dn,dn,dn)" }}{PARA 6 "" 1 "" {TEXT -1 127 "Warn
+ing: e corresponds to a previously defined GRTensor object -- to avoid
+ ambiguities, only its derivatives have been aliased." }}{PARA 7 "" 1 
+"" {TEXT -1 51 "Warning, alias or macro c[x] defined in terms of c\n" 
+}}{PARA 7 "" 1 "" {TEXT -1 53 "Warning, alias or macro d[x,y] defined \+
+in terms of d\n" }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: e correspond
+s to a previously defined GRTensor object -- to avoid ambiguities, onl
+y its derivatives have been aliased." }}{PARA 6 "" 1 "" {TEXT -1 127 "
+Warning: e corresponds to a previously defined GRTensor object -- to a
+void ambiguities, only its derivatives have been aliased." }}{PARA 6 "
+" 1 "" {TEXT -1 127 "Warning: e corresponds to a previously defined GR
+Tensor object -- to avoid ambiguities, only its derivatives have been \+
+aliased." }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: e corresponds to a \+
+previously defined GRTensor object -- to avoid ambiguities, only its d
+erivatives have been aliased." }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning
+: e corresponds to a previously defined GRTensor object -- to avoid am
+biguities, only its derivatives have been aliased." }}{PARA 6 "" 1 "" 
+{TEXT -1 127 "Warning: e corresponds to a previously defined GRTensor \+
+object -- to avoid ambiguities, only its derivatives have been aliased
+." }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: e corresponds to a previou
+sly defined GRTensor object -- to avoid ambiguities, only its derivati
+ves have been aliased." }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: e cor
+responds to a previously defined GRTensor object -- to avoid ambiguiti
+es, only its derivatives have been aliased." }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 35 "We display only one component here." }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 34 "grcomponent(WS(dn,dn,dn),[x,x,y]);" }}{PARA 12 "" 
+1 "" {XPPMATH 20 "6#,`s*&&%\"cG6%%\"yG%\"zGF)\"\"\"-%\"eG6%%\"xGF(F)!
+\"\"#F/\"\"%*&*(#\"\"$\"\")F*&F&6$F(F(F*&%\"dG6#F(F*F**$)F:\"\"#F*F/F*
+*&*(#F*F1F*&F:6$F.F.F*F9F*F**$F=F*F/F**&#F*F1F**&&F:6%F.F.F(F*F:F/F*F/
+*&#F*F1F**&*$)&F&F;F5F*F**&F:F*)F&F>F*F/F*F/*&#F*F1F**&&F&6%F(F(F(F*F:
+F/F*F/*&#F*F6F**&*(&F:6#F.F*FOF*&F,FfnF*F**(F:F*F&F*F+F*F/F*F/*&#F*F1F
+**&*&FOF*)&F&6#F)F>F*F**&FQF*F+F*F/F*F/*&#F*F1F**&*&F9F*)FenF>F*F**$)F
+:F5F*F/F*F/*&#F*F1F**&*&)F9F>F*FOF*F**$FgoF*F/F*F/*&*(FAF*&F,F;F*)FgnF
+>F*F**$)F+F5F*F/F**&*(#F*F6F*FeoF*F`pF*F**&F=F*F+F*F/F**&**FfpF*F^oF*&
+F:F_oF*F9F*F**&F=F*F+F*F/F**&**FAF*F&F*)F`pF>F*F9F*F**&F=F*)F+F>F*F/F*
+*&**FfpF*F&F*)FjpF>F*F`pF*F**&F=F*F`qF*F/F**&#F*F6F**&*&FcqF*FOF*F**&F
+=F*F+F*F/F*F/*&#F*F1F**&*&F]oF*F`pF*F**&F&F*F`qF*F/F*F/*&*(FAF*FapF*FO
+F*F**&F&F*F`qF*F/F**&#F*F6F**&*&FeoF*FOF*F**&F=F*F&F*F/F*F/*&#F*F1F**&
+*&)FOF>F*F9F*F**&F=F*F&F*F/F*F/*&#F*F1F**&*(F`pF*F^oF*&F,F_oF*F**$FcpF
+*F/F*F/*&#F*F6F**&*(&F&FfnF*FenF*F9F*F**&F=F*F&F*F/F*F/*&**FfpF*F^oF*F
+jpF*F`pF*F**&F:F*F`qF*F/F**&**FAF*F&F*F\\pF*F`pF*F**&FgoF*F+F*F/F**&**
+FAF*F&F*F9F*FcqF*F**&FgoF*F+F*F/F**&#F*F1F**&*(FOF*FgsF*FenF*F**&F:F*F
+QF*F/F*F/*&**FAF*FOF*FgsF*FgnF*F**&FQF*F+F*F/F**&**FfpF*FgsF*FenF*F`pF
+*F**(F:F*F&F*F+F*F/F**&*,FAF*F&F*F`pF*FjpF*FasF*F**&F:F*FcpF*F/F**&#F*
+F6F**&*(FenF*FgnF*F9F*F**&F=F*F+F*F/F*F/*&*,FfpF*F&F*FjpF*FasF*F9F*F**
+&F=F*F`qF*F/F**&*(FAF*F&F*)F`pF5F*F**&F:F*FcpF*F/F**&*&FAF*&F,FIF*F*F+
+F/F**&#F*F6F**&*(FjpF*FasF*FOF*F**&F:F*F`qF*F/F*F/*&*(FAF*FenF*&F:6$F.
+F(F*F**$F=F*F/F**&*(FAF*&F&6$F)F)F*F`pF*F**$F`qF*F/F**&#F*F>F**&*&FgnF
+*&F,FgvF*F**$F`qF*F/F*F/*&*(FfpF*F^oF*&F,6$F(F)F*F**$F`qF*F/F**&*(FfpF
+*&F&FgwF*FasF*F**$F`qF*F/F**&*(FfpF*FgsF*FfvF*F**&F:F*F&F*F/F**&*(FfpF
+*&F&FgvF*FenF*F**&F:F*F&F*F/F**&#F*F6F**&*&FgsF*FbwF*F**&F&F*F+F*F/F*F
+/*&#F*F6F**&*&FbxF*FgnF*F**&F&F*F+F*F/F*F/*&*(FfpF*FenF*FbwF*F**&F:F*F
++F*F/F**&#F*F6F**&*&F^oF*&F:FgwF*F**&F:F*F+F*F/F*F/*&#F*F6F**&*&F7F*F`
+pF*F**&F:F*F+F*F/F*F/*&*(FfpF*FOF*&F,F8F*F**&F:F*F+F*F/F**&*(FAF*FBF*F
+OF*F**&F:F*F&F*F/F**&*(#F*F>F*F^oF*F[xF*F**&F&F*F+F*F/F**&#F*F1F**&*&&
+F,FCF*FOF*F**&F&F*F+F*F/F*F/*&*(FfpF*FfvF*FgnF*F**&F:F*F+F*F/F**&*(Fez
+F*FOF*F7F*F**&F:F*F&F*F/F**&#F*F6F**&*&F[xF*FjpF*F**&F:F*F+F*F/F*F/*&*
+(FAF*&F:F\\wF*FOF*F**&F:F*F+F*F/F**&#F*F1F**&*&FBF*F`pF*F**&F:F*F+F*F/
+F*F/*&*(FAF*F&F*&F:F'F*F**&F:F*F+F*F/F**&*(FAF*F&F*&F,FVF*F**&F:F*F+F*
+F/F**&*(FfpF*FOF*&F:F8F*F**$F=F*F/F**&#F*F6F**&*(F&F*FjpF*FfwF*F**&F:F
+*F`qF*F/F*F/*&#F*F6F**&*(F&F*FeyF*FasF*F**&F:F*F`qF*F/F*F/*&#F*F>F**&*
+(F&F*F`pF*F^zF*F**&F:F*F`qF*F/F*F/*&#F*F1F**&*(F&F*Fj[lF*F`pF*F**&F:F*
+F`qF*F/F*F/*&#F*F1F**&*(F&F*FjpF*FeyF*F**&F=F*F+F*F/F*F/*&#F5F6F**&*(F
+&F*F^zF*F9F*F**&F=F*F+F*F/F*F/*&#F*F1F**&*(F&F*Fj[lF*F9F*F**&F=F*F+F*F
+/F*F/*&#F*F6F**&*(F&F*F[]lF*F`pF*F**&F=F*F+F*F/F*F/" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "9 2" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

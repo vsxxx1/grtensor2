@@ -1,0 +1,50 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" -1 2 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 3 1 }1 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 0 1 0 
+0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "M
+aple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "grtw();" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%=GRTensorII~Version~1.79~(R6)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%06~February~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+ZDeveloped~by~Peter~Musgrave,~Denis~Pollney~and~Kayll~LakeG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%DCopyright~1994-2001~by~the~authors.G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%inLatest~version~available~from:~http
+://grtensor.phy.queensu.ca/G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4e:/G
+rtii(6)/MetricsG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "qload(d
+iag3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Default~spacetimeG%&diag3
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%9For~the~diag3~spacetime:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~
+G%\"aG-%'vectorG6#7%%\"xG%\"yG%\"zG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#%-Line~elementG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*$)%$~dsG\"\"#\"
+\"\",(*(-%\"cG6%%\"xG%\"yG%\"zGF(%#~dGF()F.%#2~GF(F(*(-%\"dGF-F(F1F()F
+/F3F(F(*(-%\"eGF-F(F1F()F0F3F(F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 88 "grdef(`WS\{a [ b c ] \}:=R\{a b ; c\}-R\{a c ; b\}-(g
+\{a b\}*R\{^e e; c\}-g\{a c\}*R\{^f f ; b\})/4`);" }}{PARA 6 "" 1 "" 
+{TEXT -1 32 "Created definition for R(up,dn) " }}{PARA 6 "" 1 "" 
+{TEXT -1 37 "Created a definition for R(up,dn,cdn)" }}{PARA 6 "" 1 "" 
+{TEXT -1 37 "Created a definition for R(dn,dn,cdn)" }}{PARA 6 "" 1 "" 
+{TEXT -1 35 "Created definition for WS(dn,dn,dn)" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 74 "grdef(`CY\{^a ^b\}:=2*LevC\{^a^c^d\}*(R\{^b c
+ ;d\}-kdelta\{^b c\}*R\{^f f ;d\}/4)`);" }}{PARA 6 "" 1 "" {TEXT -1 
+32 "Created definition for CY(up,up)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 53 "grdef(`CY1\{^a ^b\}:=LevC\{^a^c^d\}*g\{^b ^e\}*WS\{e \+
+c d\}`);" }}{PARA 6 "" 1 "" {TEXT -1 33 "Created definition for CY1(up
+,up)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "grdef(`DCY\{^a ^b\}
+:=CY\{^a ^b\}-CY1\{^a ^b\}`);" }}{PARA 6 "" 1 "" {TEXT -1 33 "Created \+
+definition for DCY(up,up)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+19 "grcalc(DCY(up,up));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time
+~G$\"$r'!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%9For~the~diag3~spacetime:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%+DCY(up,up)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$DCYG6$%#upGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&
+)%$DCYG%\"aG\"\"\")%!G%\"bGF(%8All~components~are~zeroG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "8 4" 0 }{VIEWOPTS 1 1 
+0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

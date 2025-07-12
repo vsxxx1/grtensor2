@@ -1,0 +1,322 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helveti
+ca" 1 10 255 0 0 1 2 1 2 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 
+1 2 2 2 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 132 "Demonstration 1(kerr):Int
+roduction to the Kerr metric, the vacuum ($\\Lambda=0$) solution of Ei
+nstein's equations for axial symmetry." }}{PARA 0 "" 0 "" {TEXT -1 35 
+"(kerr.mpl,newkerr.mpl,npdnkerr.mpl)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 8 "restart:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "interface(
+labelling=false):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "grtw();
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%=GRTensorII~Version~1.79~(R6)G" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%06~February~2001G" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%ZDeveloped~by~Peter~Musgrave,~Denis~Pollney~and~Kayl
+l~LakeG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%DCopyright~1994-2001~by~th
+e~authors.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%inLatest~version~avail
+able~from:~http://grtensor.phy.queensu.ca/G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%4e:/Grtii(6)/MetricsG" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 178 "The most familiar form of the Kerr metric is in Boyer-Li
+ndquist coordinates. We start by showing that the metric is indeed a v
+acuum solution (compare Landau and Lifshitz, p.323)." }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 12 "qload(kerr);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+/%2Default~spacetimeG%%kerrG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~
+the~kerr~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7&%\"rG%&thetaG%$phiG%\"tG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%-Line~elementG" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#/*$)%$~dsG\"\"#\"\"\",,*&*(,&*$)%\"rGF'F(F(*&)%\"aGF'F(
+)-%$cosG6#%&thetaGF'F(F(F(%#~dGF()F/%#2~GF(F(,(F-F(*(F'F(%\"mGF(F/F(!
+\"\"*$F1F(F(F>F(*(F,F(F8F()F7F:F(F(**)-%$sinGF6F'F(,(F-F(F?F(*&*,F'F(F
+=F(F/F(F1F(FCF(F(F,F>F(F(F8F()%$phiGF:F(F(*&*4\"\"%F(F=F(F2F(F/F(FCF(F
+8F()FJ%\"~GF(%#d~GF()%\"tGFOF(F(F,F>F>*(,&F>F(*&*(F'F(F=F(F/F(F(F,F>F(
+F(F8F()FRF:F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%LKerr~metric~in~Bo
+yer-Lindquist~coordinates.G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+17 "grcalc(R(dn,dn));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G
+$\"$\"G!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "gralter(_,tr
+ig);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Component simplification of a GRT
+ensorII object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" 
+{TEXT -1 52 "Applying routine `simplify[trig]` to object R(dn,dn)" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$q\"!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%8For~the~kerr~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%0Covariant~RicciG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-
+%\"RG6$%#dnGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%#R~G6#%\"aG\"\"
+\"&%!G6#%\"bGF)%8All~components~are~zeroG" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 27 "The metric is flat for m=0." }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "grcalc(R(dn,dn,dn,dn));" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/%*CPU~Time~G$\"$5#!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 22 "grmap(_,subs,m=0,`x`);" }}{PARA 6 "" 1 "" {TEXT -1 39 "Applying \+
+routine subs to R(dn,dn,dn,dn)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 16 "gralter(_,trig);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Component sim
+plification of a GRTensorII object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }
+}{PARA 6 "" 1 "" {TEXT -1 58 "Applying routine `simplify[trig]` to obj
+ect R(dn,dn,dn,dn)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"
+#I!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%8For~the~kerr~spacetime:G" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%2Covariant~RiemannG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%/R(dn,dn,dn,dn)G%8All~components~are~zeroG" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 100 "The time rquired to show that the
+ metric is a vacuum solution depends very much on the coordinates. " }
+}{PARA 0 "" 0 "" {TEXT -1 75 "For example, under the elementary transf
+ormation $u=a*cos(\\theta)$ we have:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 15 "qload(newkerr);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Default~sp
+acetimeG%(newkerrG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%;For~the~newker
+r~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7&%\"rG%\"uG%$phiG%\"tG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%-Line~elementG" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#/*$)%$~dsG\"\"#\"\"\",,*&*(,&*$)%\"rGF'F(F(*$)%\"uGF'F(
+F(F(%#~dGF()F/%#2~GF(F(,(F-F(*(F'F(%\"mGF(F/F(!\"\"*$)%\"aGF'F(F(F9F(*
+&*(F,F(F3F()F2F5F(F(,&F:F(F0F9F9F(*&**F@F(,(F-F(F:F(*&**F'F(F@F(F8F(F/
+F(F(F,F9F(F(F3F()%$phiGF5F(F(*$F;F(F9F(*&*2\"\"%F(F@F(F8F(F/F(F3F()FG%
+\"~GF(%#d~GF()%\"tGFMF(F(*&F<F(F,F(F9F9*(,&F9F(*&*(F'F(F8F(F/F(F(F,F9F
+(F(F3F()FPF5F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%,ConstraintsG7#/
+%\"uG*&%\"aG\"\"\"-%$cosG6#%&thetaGF*" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#%`oThe~Kerr~metric~in~Boyer-Lindquist~type~coordinates~(u=a*cos(the
+ta)).G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "grcalc(R(dn,dn));
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#q!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%;For~the~newkerr~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%0Covariant~RicciG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-
+%\"RG6$%#dnGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%#R~G6#%\"aG\"\"
+\"&%!G6#%\"bGF)%8All~components~are~zeroG" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 158 "The traditional way to argue that r=0 is singular only f
+or $\\theta=\\pi/2$ is to calculate the Kretschmann scalar (e.g. Wald,
+ p.315 Hawking and Ellis, p.162). " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+15 "grcalc(RiemSq);" }}{PARA 6 "" 1 "" {TEXT -1 38 "Created definition
+ for R(dn,dn,up,up) " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$
+\"$!G!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "gralter(_,6,7)
+;" }}{PARA 6 "" 1 "" {TEXT -1 48 "Component simplification of a GRTens
+orII object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT 
+-1 40 "Applying routine expand to object RiemSq" }}{PARA 6 "" 1 "" 
+{TEXT -1 40 "Applying routine factor to object RiemSq" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#T!\"$" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 77 "We can put the scalar back into the original coordinates \+
+($u=a*cos(\\theta)$)." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "grmap(_,su
+bs,u=a*cos(theta),`x`);" }}{PARA 6 "" 1 "" {TEXT -1 31 "Applying routi
+ne subs to RiemSq" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisp
+lay(_);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%;For~the~newkerr~spacetime
+:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%<Full~Contraction~of~RiemannG" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%#K~G,$*&*,)%\"mG\"\"#\"\"\",&*&%\"
+aGF+-%$cosG6#%&thetaGF+!\"\"%\"rGF+F+,&F4F+F-F+F+,(*&)F.F*F+)F/F*F+F+*
+*\"\"%F+F4F+F.F+F/F+F+*$)F4F*F+F+F+,(F7F+**F;F+F4F+F.F+F/F+F3F<F+F+F+*
+$),&F<F+F7F+\"\"'F+F3\"#[" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 121 "Since the solution is vacuum, the only n
+on-vanishing curvature invariants are the Weyl invariants (e.g. Weinbe
+rg, p.146)." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "grcalc(Winvars);" }}
+{PARA 6 "" 1 "" {TEXT -1 25 "Scalar invariant library." }}{PARA 6 "" 
+1 "" {TEXT -1 28 "Last modified 25 March 1997." }}{PARA 6 "" 1 "" 
+{TEXT -1 38 "Created definition for C(up,up,up,up) " }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/%*CPU~Time~G$\"$![!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gralter(_,7);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Compone
+nt simplification of a GRTensorII object:" }}{PARA 6 "" 1 "" {TEXT -1 
+0 "" }}{PARA 6 "" 1 "" {TEXT -1 37 "Applying routine factor to object \+
+W1R" }}{PARA 6 "" 1 "" {TEXT -1 37 "Applying routine factor to object \+
+W1I" }}{PARA 6 "" 1 "" {TEXT -1 37 "Applying routine factor to object \+
+W2R" }}{PARA 6 "" 1 "" {TEXT -1 37 "Applying routine factor to object \+
+W2I" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#h!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "grmap(_,subs,u=a*cos(theta),
+`x`);" }}{PARA 6 "" 1 "" {TEXT -1 28 "Applying routine subs to W1R" }}
+{PARA 6 "" 1 "" {TEXT -1 28 "Applying routine subs to W1I" }}{PARA 6 "
+" 1 "" {TEXT -1 28 "Applying routine subs to W2R" }}{PARA 6 "" 1 "" 
+{TEXT -1 28 "Applying routine subs to W2I" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 21 "grmap(_,radsimp,`x`);" }}{PARA 6 "" 1 "" {TEXT -1 
+31 "Applying routine radsimp to W1R" }}{PARA 6 "" 1 "" {TEXT -1 31 "Ap
+plying routine radsimp to W1I" }}{PARA 6 "" 1 "" {TEXT -1 31 "Applying
+ routine radsimp to W2R" }}{PARA 6 "" 1 "" {TEXT -1 31 "Applying routi
+ne radsimp to W2I" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gralte
+r(_,7);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Component simplification of a \+
+GRTensorII object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" 
+{TEXT -1 37 "Applying routine factor to object W1R" }}{PARA 6 "" 1 "" 
+{TEXT -1 37 "Applying routine factor to object W1I" }}{PARA 6 "" 1 "" 
+{TEXT -1 37 "Applying routine factor to object W2R" }}{PARA 6 "" 1 "" 
+{TEXT -1 37 "Applying routine factor to object W2I" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/%*CPU~Time~G$\"#]!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%;Fo
+r~the~newkerr~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4CM~inva
+riant~Re(W1)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%%W1R~G,$*&*,)%\"mG
+\"\"#\"\"\",&*&%\"aGF+-%$cosG6#%&thetaGF+!\"\"%\"rGF+F+,&F4F+F-F+F+,(*
+&)F.F*F+)F/F*F+F+**\"\"%F+F4F+F.F+F/F+F+*$)F4F*F+F+F+,(F7F+**F;F+F4F+F
+.F+F/F+F3F<F+F+F+*$),&F<F+F7F+\"\"'F+F3FC" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%4CM~invariant~Im(W1)G" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/%%W1I~G,$*&*.%\"rG\"\"\"%\"aGF)-%$cosG6#%&thetaGF))%\"mG\"\"#F),&*
+$)F(F1F)F)*(\"\"$F))F*F1F))F+F1F)!\"\"F),&F3F6*&F7F)F8F)F9F)F)*$),&F3F
+)F;F)\"\"'F)F9!#7" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4CM~invariant~Re
+(W2)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%%W2R~G,$*&**%\"rG\"\"\")%\"
+mG\"\"$F),&*$)F(\"\"#F)F)*(F,F))%\"aGF0F))-%$cosG6#%&thetaGF0F)!\"\"F)
+,**&)F3\"\"'F))F5F=F)!\"$**\"#FF)F/F))F3\"\"%F))F5FCF)F)**\"#LF))F(FCF
+)F2F)F4F)F9*$)F(F=F)F)F)F)*$),&F.F)*&F2F)F4F)F)\"\"*F)F9!\"'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%4CM~invariant~Im(W2)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%%W2I~G,$*&*,%\"aG\"\"\"-%$cosG6#%&thetaGF))%\"mG\"\"$
+F),&*$)%\"rG\"\"#F)F0*&)F(F5F))F*F5F)!\"\"F),**&)F(\"\"'F))F*F=F)F9**
+\"#LF)F3F))F(\"\"%F))F*FBF)F)**\"#FF))F4FBF)F7F)F8F)F9*&F0F))F4F=F)F)F
+)F)*$),&F2F)F6F)\"\"*F)F9F=" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 105 "T
+he coordinates are obviously adapted to two Killing vectors (see furth
+er demonstrations under symmetry)." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+16 "KillingCoords():" }}{PARA 6 "" 1 "" {TEXT -1 39 "Testing Killing c
+oordinates for newkerr" }}{PARA 6 "" 1 "" {TEXT -1 34 "Created definit
+ion for coord1(dn) " }}{PARA 6 "" 1 "" {TEXT -1 39 "Created a definiti
+on for coord1(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 39 "Created a defini
+tion for coord1(up,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 34 "Created defini
+tion for coord2(dn) " }}{PARA 6 "" 1 "" {TEXT -1 39 "Created a definit
+ion for coord2(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 39 "Created a defin
+ition for coord2(up,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 34 "Created defin
+ition for coord3(dn) " }}{PARA 6 "" 1 "" {TEXT -1 39 "Created a defini
+tion for coord3(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 39 "Created a defi
+nition for coord3(up,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 34 "Created defi
+nition for coord4(dn) " }}{PARA 6 "" 1 "" {TEXT -1 39 "Created a defin
+ition for coord4(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 39 "Created a def
+inition for coord4(up,cdn)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~T
+ime~G$\"%-9!\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%@Killing~Coordinat
+e~Test~ResultsG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%3Coordinate~vecto
+r~G7&%\"rG%\"uG%$phiG%\"tG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$/-%'coor
+d1G6#%#upG7&\"\"\"\"\"!F*F*%7~not~a~Killing~vector.G" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6$/-%'coord2G6#%#upG7&\"\"!\"\"\"F)F)%7~not~a~Killing~
+vector.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$/-%'coord3G6#%#upG7&\"\"!F
+)\"\"\"F)%3~a~Killing~vector.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$/-%'
+coord4G6#%#upG7&\"\"!F)F)\"\"\"%3~a~Killing~vector.G" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 103 "We now show by way of the Frobenius theorem th
+at the metric is not static unless a=0 (e.g. Wald p.436):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "grdef(`xi\{^a\}:=[0,0,0,1]`);" }}
+{PARA 6 "" 1 "" {TEXT -1 39 "Components assigned for metric: newkerr" 
+}}{PARA 6 "" 1 "" {TEXT -1 29 "Created definition for xi(up)" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "grdef(`Xi\{a b c\}:=xi\{[a ;
+c\}*xi\{b]\}`);" }}{PARA 6 "" 1 "" {TEXT -1 30 "Created definition for
+ xi(dn) " }}{PARA 6 "" 1 "" {TEXT -1 35 "Created a definition for xi(d
+n,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 35 "Created definition for Xi(dn,dn
+,dn)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "grcalc(Xi(dn,dn,dn)
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#I!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gralter(_,1);" }}{PARA 6 "" 
+1 "" {TEXT -1 48 "Component simplification of a GRTensorII object:" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 48 "Applying \+
+routine simplify to object Xi(dn,dn,dn)" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/%*CPU~Time~G$\"\"!F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+33 "grmap(_,subs,u=a*cos(theta),`x`);" }}{PARA 6 "" 1 "" {TEXT -1 37 "
+Applying routine subs to Xi(dn,dn,dn)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "gralter(_,trig,factor);" }}{PARA 6 "" 1 "" {TEXT -1 
+48 "Component simplification of a GRTensorII object:" }}{PARA 6 "" 1 "
+" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 56 "Applying routine `simpl
+ify[trig]` to object Xi(dn,dn,dn)" }}{PARA 6 "" 1 "" {TEXT -1 46 "Appl
+ying routine factor to object Xi(dn,dn,dn)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%*CPU~Time~G$\"#S!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 36 "grcomponent(Xi(dn,dn,dn),[r,phi,t]);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,$*&*.%\"aG\"\"\",&!\"\"F'-%$cosG6#%&thetaGF'F',&F
+*F'F'F'F'%\"mGF',&*&F&F'F*F'F)%\"rGF'F',&F2F'F1F'F'F'*$),&*$)F2\"\"#F'
+F'*&)F&F9F')F*F9F'F'F9F'F)#F'\"\"$" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 80 "Consider now a covariant NPtetrad. We go directly to the Ricci \+
+and Weyl scalars:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "qload(npdnkerr
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Default~spacetimeG%)npdnkerrG
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%<For~the~npdnkerr~spacetime:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~
+G%\"aG-%'vectorG6#7&%\"tG%\"rG%\"uG%$phiG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%4Basis~inner~productG" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#-%$etaG6$%$bupGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&)%$etaG%$(a
+)G\"\"\")%!G%$(b)GF(-%'matrixG6#7&7&\"\"!F(F1F17&F(F1F1F17&F1F1F1!\"\"
+7&F1F1F4F1" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%CNull~tetrad~(covariant
+~components)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$NPlG6#%#dnG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"lG6#%\"aG-%'vectorG6#7&\"\"\",$*&
+,&*$)%\"rG\"\"#F,F,*$)%\"uGF3F,F,F,,(F0F,*(F3F,%\"MGF,F2F,!\"\"*$)F'F3
+F,F,F:F:\"\"!,$*&,&F;F,F4F:F,F'F:F:" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#-%$NPnG6#%#dnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"nG6#%\"aG-%'ve
+ctorG6#7&,$*&,(*$)%\"rG\"\"#\"\"\"F3*(F2F3%\"MGF3F1F3!\"\"*$)F'F2F3F3F
+3,&F/F3*$)%\"uGF2F3F3F6#F3F2F=\"\"!,$*&*&F.F3,&F7F3F:F6F3F3*&F'F3F9F3F
+6#F6F2" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$NPmG6#%#dnG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/&%\"mG6#%\"aG-%'vectorG6#7&,$*&*(-%%sqrtG6#,&*$
+)F'\"\"#\"\"\"F6*$)%\"uGF5F6!\"\"F6,&*&^#F6F6%\"rGF6F6F9F6F6-F06#F5F6F
+6,&*$)F>F5F6F6F7F6F:#F6F5\"\"!,$*&*&FAF6F?F6F6*&-F06#F2F6,&F>F6*&F=F6F
+9F6F6F6F:FD,$*&*(,**&F=F6)F>\"\"$F6F6*&F9F6FCF6F6*(F=F6F4F6F>F6F6*&F9F
+6F4F6F6F6F/F6F?F6F6*&F'F6FAF6F:#F:F5" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#-%'NPmbarG6#%#dnG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%%mbarG6#%\"a
+G-%'vectorG6#7&,$*&*(-%%sqrtG6#,&*$)F'\"\"#\"\"\"F6*$)%\"uGF5F6!\"\"F6
+,&*&^#F6F6%\"rGF6F6F9F:F6-F06#F5F6F6,&*$)F>F5F6F6F7F6F:#F:F5\"\"!,$*&*
+&FAF6F?F6F6*&-F06#F2F6,&F>F:*&F=F6F9F6F6F6F:FD,$*&*(,**&F=F6)F>\"\"$F6
+F6*&F9F6FCF6F:*(F=F6F4F6F>F6F6*&F9F6F4F6F:F6F/F6F?F6F6*&F'F6FAF6F:#F6F
+5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%]pCovariant~NPtetrad~for~Kerr~me
+tric~(u=a*cos(theta)~to~Boyer-Lindquist~coordinates)G" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "grcalc(RicciSc,WeylSc):" }}{PARA 6 
+"" 1 "" {TEXT -1 41 "`Basis/tetrad related object definitions`" }}
+{PARA 6 "" 1 "" {TEXT -1 31 "`Last modified 23 January 2001`" }}{PARA 
+6 "" 1 "" {TEXT -1 38 "Created a definition for e(bdn,dn,pdn)" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$i(!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "gralter(_,2,7);" }}{PARA 6 "" 1 "" 
+{TEXT -1 48 "Component simplification of a GRTensorII object:" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 49 "Applying \+
+routine `simplify[trig]` to object Phi00" }}{PARA 6 "" 1 "" {TEXT -1 
+49 "Applying routine `simplify[trig]` to object Phi01" }}{PARA 6 "" 1 
+"" {TEXT -1 49 "Applying routine `simplify[trig]` to object Phi02" }}
+{PARA 6 "" 1 "" {TEXT -1 49 "Applying routine `simplify[trig]` to obje
+ct Phi11" }}{PARA 6 "" 1 "" {TEXT -1 49 "Applying routine `simplify[tr
+ig]` to object Phi12" }}{PARA 6 "" 1 "" {TEXT -1 49 "Applying routine \+
+`simplify[trig]` to object Phi22" }}{PARA 6 "" 1 "" {TEXT -1 52 "Apply
+ing routine `simplify[trig]` to object NPLambda" }}{PARA 6 "" 1 "" 
+{TEXT -1 48 "Applying routine `simplify[trig]` to object Psi0" }}
+{PARA 6 "" 1 "" {TEXT -1 48 "Applying routine `simplify[trig]` to obje
+ct Psi1" }}{PARA 6 "" 1 "" {TEXT -1 48 "Applying routine `simplify[tri
+g]` to object Psi2" }}{PARA 6 "" 1 "" {TEXT -1 48 "Applying routine `s
+implify[trig]` to object Psi3" }}{PARA 6 "" 1 "" {TEXT -1 48 "Applying
+ routine `simplify[trig]` to object Psi4" }}{PARA 6 "" 1 "" {TEXT -1 
+39 "Applying routine factor to object Phi00" }}{PARA 6 "" 1 "" {TEXT 
+-1 39 "Applying routine factor to object Phi01" }}{PARA 6 "" 1 "" 
+{TEXT -1 39 "Applying routine factor to object Phi02" }}{PARA 6 "" 1 "
+" {TEXT -1 39 "Applying routine factor to object Phi11" }}{PARA 6 "" 
+1 "" {TEXT -1 39 "Applying routine factor to object Phi12" }}{PARA 6 "
+" 1 "" {TEXT -1 39 "Applying routine factor to object Phi22" }}{PARA 
+6 "" 1 "" {TEXT -1 42 "Applying routine factor to object NPLambda" }}
+{PARA 6 "" 1 "" {TEXT -1 38 "Applying routine factor to object Psi0" }
+}{PARA 6 "" 1 "" {TEXT -1 38 "Applying routine factor to object Psi1" 
+}}{PARA 6 "" 1 "" {TEXT -1 38 "Applying routine factor to object Psi2
+" }}{PARA 6 "" 1 "" {TEXT -1 38 "Applying routine factor to object Psi
+3" }}{PARA 6 "" 1 "" {TEXT -1 38 "Applying routine factor to object Ps
+i4" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$J)!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "grmap(_,subs,u=a*cos(theta),
+`x`);" }}{PARA 6 "" 1 "" {TEXT -1 30 "Applying routine subs to Phi00" 
+}}{PARA 6 "" 1 "" {TEXT -1 30 "Applying routine subs to Phi01" }}
+{PARA 6 "" 1 "" {TEXT -1 30 "Applying routine subs to Phi02" }}{PARA 
+6 "" 1 "" {TEXT -1 30 "Applying routine subs to Phi11" }}{PARA 6 "" 1 
+"" {TEXT -1 30 "Applying routine subs to Phi12" }}{PARA 6 "" 1 "" 
+{TEXT -1 30 "Applying routine subs to Phi22" }}{PARA 6 "" 1 "" {TEXT 
+-1 33 "Applying routine subs to NPLambda" }}{PARA 6 "" 1 "" {TEXT -1 
+29 "Applying routine subs to Psi0" }}{PARA 6 "" 1 "" {TEXT -1 29 "Appl
+ying routine subs to Psi1" }}{PARA 6 "" 1 "" {TEXT -1 29 "Applying rou
+tine subs to Psi2" }}{PARA 6 "" 1 "" {TEXT -1 29 "Applying routine sub
+s to Psi3" }}{PARA 6 "" 1 "" {TEXT -1 29 "Applying routine subs to Psi
+4" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%<For~the~npdnkerr~spacetime:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%4Ricci~Scalar,~Phi00G" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/%&Phi00G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+%4Ricci~Scalar,~Phi01G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%&Phi01G\"
+\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4Ricci~Scalar,~Phi02G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/%&Phi02G\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%4Ricci~Scalar,~Phi11G" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/%&Phi11G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4Ricci~Scalar,~P
+hi12G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%&Phi12G\"\"!" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%4Ricci~Scalar,~Phi22G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%&Phi22G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%<NPL
+ambda~:=~Ricci~Scalar/24G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%)NPLamb
+daG\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%5Weyl~Scalar,~NP~Psi0G" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%%Psi0G\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%5Weyl~Scalar,~NP~Psi1G" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/%%Psi1G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%5Weyl~Scalar,~
+NP~Psi2G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%%Psi2G,$*&%\"MG\"\"\"*$)
+,&%\"rGF(*(^#!\"\"F(%\"aGF(-%$cosG6#%&thetaGF(F(\"\"$F(F/F/" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%5Weyl~Scalar,~NP~Psi3G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%%Psi3G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%5Weyl
+~Scalar,~NP~Psi4G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%%Psi4G\"\"!" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 130 "A remarkable property of the met
+ric is the existence of a Killing tensor (e.g. Wald p.321). See the de
+monstrations under symmetry." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}}{MARK "37 25" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 
+2 33 1 1 }

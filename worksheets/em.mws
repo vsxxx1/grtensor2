@@ -1,0 +1,154 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helveti
+ca" 1 10 255 0 0 1 2 1 2 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 
+1 2 2 2 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 76 "Demonstration 2(em):Einste
+in-Maxwell equations in the Kerr-Newman spacetime." }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+7 "grtw():" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%=GRTensorII~Version~1.7
+9~(R6)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%06~February~2001G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%ZDeveloped~by~Peter~Musgrave,~Denis~P
+ollney~and~Kayll~LakeG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%DCopyright~
+1994-2001~by~the~authors.G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%inLates
+t~version~available~from:~http://grtensor.phy.queensu.ca/G" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "grOptionTermSize:=30:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "qload(newkn);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%2Default~spacetimeG%&newknG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%9For~the~newkn~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"x
+G6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#x~G%\"aG-%'vectorG6#7&
+%\"rG%\"uG%$phiG%\"tG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%-Line~elemen
+tG" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/*$)%$~dsG\"\"#\"\"\",,*&*(,&*$)
+%\"rGF'F(F(*$)%\"uGF'F(F(F(%#~dGF()F/%#2~GF(F(,*F-F(*(F'F(%\"mGF(F/F(!
+\"\"*$)%\"aGF'F(F(*$)%\"QGF'F(F(F9F(*&*(F,F(F3F()F2F5F(F(,&F:F(F0F9F9F
+(*&**FCF(,(F-F(F:F(*&*&FCF(,&*&F8F(F/F(F'F=F9F(F(F,F9F(F(F3F()%$phiGF5
+F(F(*$F;F(F9F(*&*0F'F(FCF(FIF(F3F()FL%\"~GF(%#d~GF()%\"tGFQF(F(*&F<F(F
+,F(F9F9*(,&F9F(*&FIF(F,F9F(F(F3F()FTF5F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%,ConstraintsG7#/%\"uG*&%\"aG\"\"\"-%$cosG6#%&thetaGF*
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%_oKerr~Newman~Solution~in~Boyer-L
+indquist~coordinates~(u=a*cos(theta))G" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 13 "a)Background:" }}{PARA 0 "" 0 "" {TEXT -1 82 "Define the \+
+vector potential $A_\{a\}$ and the electromagnetic field tensor $f_\{a
+b\}$:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "grdef(`A\{a\}:=[0,0,Q*r*(a
+^2-u^2)/(a*(r^2+u^2)),-Q*r/(r^2+u^2)]`);" }}{PARA 6 "" 1 "" {TEXT -1 
+37 "Components assigned for metric: newkn" }}{PARA 6 "" 1 "" {TEXT -1 
+28 "Created definition for A(dn)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "grdisplay(A(dn));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+%9For~the~newkn~spacetime:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&A(dn)
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"AG6#%#dnG" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/&%\"AG6#%\"aG-%'vectorG6#7&\"\"!F,*&*(%\"QG\"\"\"%\"
+rGF0,&*$)F'\"\"#F0F0*$)%\"uGF5F0!\"\"F0F0*&F'F0,&*$)F1F5F0F0F6F0F0F9,$
+*&*&F/F0F1F0F0F;F9F9" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "grd
+ef(`f\{[a b]\}:=2*A\{[b ; a]\}`);" }}{PARA 6 "" 1 "" {TEXT -1 34 "Crea
+ted a definition for A(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 31 "Created
+ definition for f(dn,dn)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 95 " Two \+
+scalar invariants associated with the field tensor are $f_\{ab\}f^\{ab
+\}$ and $f_\{ab\}f*^\{ab\}$:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "grd
+ef(`I1:=f\{a b\}*f\{^a^b\}`);" }}{PARA 6 "" 1 "" {TEXT -1 32 "Created \+
+definition for f(up,up) " }}{PARA 6 "" 1 "" {TEXT -1 25 "Created defin
+ition for I1" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "grdef(`fsta
+r\{a b\}:=LevC\{a b c d\}*f\{^c^d\}`);" }}{PARA 6 "" 1 "" {TEXT -1 35 
+"Created definition for fstar(dn,dn)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 32 "grdef(`I2:=f\{a b\}*fstar\{^a^b\}`);" }}{PARA 6 "" 1 
+"" {TEXT -1 36 "Created definition for fstar(up,up) " }}{PARA 6 "" 1 "
+" {TEXT -1 25 "Created definition for I2" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 55 "The 4-current is defined by$J^\{a\}=f^\{ab\}_\{~~;b\}/(4
+\\pi)$" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "grdef(`J\{^a\}:=f\{^a^b;b
+\}/(4*Pi)`);" }}{PARA 6 "" 1 "" {TEXT -1 37 "Created a definition for \+
+f(up,up,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 28 "Created definition for J(
+up)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 83 "and for the field tensor w
+e construct the permutation $f_\{ab;c\}+f_\{bc;a\}+f_\{ca;b\}$." }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "grdef(`Id\{a b c\}:=f\{a b ; c\}+f
+\{b c ; a\}+f\{c a ; b\}`);" }}{PARA 6 "" 1 "" {TEXT -1 37 "Created a \+
+definition for f(dn,dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 35 "Created de
+finition for Id(dn,dn,dn)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 167 "b)C
+alculations: First we calculate, simplify and display the field tensor
+ and invariants. The four-current and permutaion of the field tensor a
+re then reduced to zero." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "grcalc(
+f(dn,dn));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#!*!\"$
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "gralter(_,2,7);" }}
+{PARA 6 "" 1 "" {TEXT -1 48 "Component simplification of a GRTensorII \+
+object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 
+52 "Applying routine `simplify[trig]` to object f(dn,dn)" }}{PARA 6 "
+" 1 "" {TEXT -1 42 "Applying routine factor to object f(dn,dn)" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#]!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%9For~the~newkn~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%)f(dn,dn)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"fG6$
+%#dnGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"fG6#*&%\"rG\"\"\"%$phi
+GF),$*&*,,&%\"rGF)%\"uG!\"\"F),&F/F)F0F)F)%\"QGF),&%\"aGF)F0F1F),&F5F)
+F0F)F)F)*&F5F)),&*$)F/\"\"#F)F)*$)F0F<F)F)F<F)F1F1" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/&%\"fG6#*&%\"rG\"\"\"%\"tGF)*&*(%\"QGF),&%\"rGF)%\"u
+G!\"\"F),&F/F)F0F)F)F)*$),&*$)F/\"\"#F)F)*$)F0F8F)F)F8F)F1" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/&%\"fG6#*&%\"uG\"\"\"%$phiGF),$*&**%\"QGF)%
+\"rGF)%\"uGF),&*$)%\"aG\"\"#F)F)*$)F/F5F)F)F)F)*&F4F)),&F6F)*$)F0F5F)F
+)F5F)!\"\"!\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"fG6#*&%\"uG\"\"
+\"%\"tGF),$*&*(%\"QGF)%\"rGF)%\"uGF)F)*$),&*$)F/\"\"#F)F)*$)F0F6F)F)F6
+F)!\"\"F6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "grcalc(I1,I2);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#g!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "gralter(_,2,7,10);" }}{PARA 6 "" 1 
+"" {TEXT -1 48 "Component simplification of a GRTensorII object:" }}
+{PARA 6 "" 1 "" {TEXT -1 0 "" }}{PARA 6 "" 1 "" {TEXT -1 46 "Applying \+
+routine `simplify[trig]` to object I1" }}{PARA 6 "" 1 "" {TEXT -1 46 "
+Applying routine `simplify[trig]` to object I2" }}{PARA 6 "" 1 "" 
+{TEXT -1 36 "Applying routine factor to object I1" }}{PARA 6 "" 1 "" 
+{TEXT -1 36 "Applying routine factor to object I2" }}{PARA 6 "" 1 "" 
+{TEXT -1 46 "Applying routine `simplify[sqrt]` to object I1" }}{PARA 
+6 "" 1 "" {TEXT -1 46 "Applying routine `simplify[sqrt]` to object I2
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"$5\"!\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%9For~the~newkn~spacetime:G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%#I1G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%#I1G,$*&*()%
+\"QG\"\"#\"\"\",(*$)%\"uGF*F+!\"\"*(F*F+%\"rGF+F/F+F0*$)F2F*F+F+F+,(F-
+F0*(F*F+F2F+F/F+F+F3F+F+F+*$),&F3F+F-F+\"\"%F+F0!\"#" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#%#I2G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%#I2G,$*&*
+,,&%\"rG\"\"\"%\"uG!\"\"F*,&F)F*F+F*F*)%\"QG\"\"#F*F)F*F+F*F**$),&*$)F
+)F0F*F**$)F+F0F*F*\"\"%F*F,\"#;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 14 "grcalc(J(up));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~
+G$\"#]!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%9For~the~newkn~spacetime:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&J(up)G" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#-%\"JG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%\"JG%\"aG%8A
+ll~components~are~zeroG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "
+grcalc(Id(dn,dn,dn));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G
+$\"#q!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%9For~the~newkn~spacetime:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%-Id(dn,dn,dn)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%-Id(dn,dn,dn)G%8All~components~are~zeroG" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 237 "c)Einstein-Maxwell equations: We constru
+ct the energy-momentum tensor out of the field tensor ($T_\{ab\}=(f_\{
+ac\}f_\{b\}^\{~c\}-g_\{ab\}f_\{cd\}f^\{cd\}/4)/(4\\pi)$) and then show
+ that the Kerr-Newman spacetime satifies the Einstein-Maxwell equation
+s." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "grdef(`T\{a b\}:=(+f\{a c\}*f
+\{b^c\}-g\{a b\}*I1/4)/(4*Pi)`);" }}{PARA 6 "" 1 "" {TEXT -1 32 "Creat
+ed definition for f(dn,up) " }}{PARA 6 "" 1 "" {TEXT -1 31 "Created de
+finition for T(dn,dn)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "gr
+def(`Dif\{a b\}:=G\{a b\}-8*Pi*T\{a b\}`);" }}{PARA 6 "" 1 "" {TEXT 
+-1 33 "Created definition for Dif(dn,dn)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "grcalc(Dif(dn,dn));" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#/%*CPU~Time~G$\"#!)!\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+15 "gralter(_,6,7);" }}{PARA 6 "" 1 "" {TEXT -1 48 "Component simplifi
+cation of a GRTensorII object:" }}{PARA 6 "" 1 "" {TEXT -1 0 "" }}
+{PARA 6 "" 1 "" {TEXT -1 44 "Applying routine expand to object Dif(dn,
+dn)" }}{PARA 6 "" 1 "" {TEXT -1 44 "Applying routine factor to object \+
+Dif(dn,dn)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%*CPU~Time~G$\"#5!\"$" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%9For~the~newkn~spacetime:G" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%+Dif(dn,dn)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-
+%$DifG6$%#dnGF&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*&&%$DifG6#%\"aG\"
+\"\"&%!G6#%\"bGF)%8All~components~are~zeroG" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "26 4" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 
+1 }{PAGENUMBERS 0 1 2 33 1 1 }

@@ -1,0 +1,286 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 0 
+0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Text Output" 
+-1 2 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 0 0 0 0 0 1 3 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 2 6 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 12 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "R3 Font 0" -1 256 1 {CSTYLE "" -1 -1 "Helveti
+ca" 1 10 255 0 0 1 2 1 2 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "R3 Font 2" -1 257 1 {CSTYLE "" -1 -1 "Courier" 1 10 0 0 0 
+1 2 2 2 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 105 "Demonstration 2:(cktest) \+
+Conformal Killing Vectors in Conformally Flat Spacetime (Cartesian Coo
+rdisnates)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart:" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "grtw();" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%=GRTensorII~Version~1.79~(R6)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%06~February~2001G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%
+ZDeveloped~by~Peter~Musgrave,~Denis~Pollney~and~Kayll~LakeG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%DCopyright~1994-2001~by~the~authors.G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%inLatest~version~available~from:~http
+://grtensor.phy.queensu.ca/G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%4e:/G
+rtii(6)/MetricsG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "qload(c
+onfflat);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Default~spacetimeG%)co
+nfflatG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%<For~the~confflat~spacetim
+e:G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%,CoordinatesG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#-%\"xG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/
+)%#x~G%\"aG-%'vectorG6#7&%\"xG%\"yG%\"zG%\"tG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%-Line~elementG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/*$)
+%$~dsG\"\"#\"\"\",**(-%\"CG6&%\"xG%\"yG%\"zG%\"tGF(%#~dGF()F.%#2~GF(F(
+*(F+F(F2F()F/F4F(F(*(F+F(F2F()F0F4F(F(*(F+F(F2F()F1F4F(!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "grdef(`Px\{^a\}:=[1,0,0,0]`)
+:" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components assigned for metric: conf
+flat" }}{PARA 6 "" 1 "" {TEXT -1 29 "Created definition for Px(up)" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "grdef(`Py\{^a\}:=[0,1,0,0]`
+):" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components assigned for metric: con
+fflat" }}{PARA 6 "" 1 "" {TEXT -1 29 "Created definition for Py(up)" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "grdef(`Pz\{^a\}:=[0,0,1,0]
+`):" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components assigned for metric: co
+nfflat" }}{PARA 6 "" 1 "" {TEXT -1 29 "Created definition for Pz(up)" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "grdef(`Pt\{^a\}:=[0,0,0,1
+]`):" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components assigned for metric: c
+onfflat" }}{PARA 6 "" 1 "" {TEXT -1 29 "Created definition for Pt(up)
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "grdef(`Mxy\{^a\}:=[-y,x
+,0,0]`):" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components assigned for metri
+c: confflat" }}{PARA 6 "" 1 "" {TEXT -1 30 "Created definition for Mxy
+(up)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "grdef(`Mxz\{^a\}:=[
+-z,0,x,0]`):" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components assigned for m
+etric: confflat" }}{PARA 6 "" 1 "" {TEXT -1 30 "Created definition for
+ Mxz(up)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "grdef(`Myz\{^a
+\}:=[0,-z,y,0]`):" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components assigned \+
+for metric: confflat" }}{PARA 6 "" 1 "" {TEXT -1 30 "Created definitio
+n for Myz(up)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "grdef(`Mtx
+\{^a\}:=[t,0,0,x]`):" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components assign
+ed for metric: confflat" }}{PARA 6 "" 1 "" {TEXT -1 30 "Created defini
+tion for Mtx(up)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "grdef(`
+Mty\{^a\}:=[0,t,0,y]`):" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components ass
+igned for metric: confflat" }}{PARA 6 "" 1 "" {TEXT -1 30 "Created def
+inition for Mty(up)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "grde
+f(`Mtz\{^a\}:=[0,0,t,z]`):" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components \+
+assigned for metric: confflat" }}{PARA 6 "" 1 "" {TEXT -1 30 "Created \+
+definition for Mtz(up)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "g
+rdef(`d\{^a\}:=[x,y,z,t]`):" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components
+ assigned for metric: confflat" }}{PARA 6 "" 1 "" {TEXT -1 28 "Created
+ definition for d(up)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "gr
+def(`Kx\{^a\}:=[x^2-y^2-z^2+t^2,2*x*y,2*x*z,2*x*t]`):" }}{PARA 6 "" 1 
+"" {TEXT -1 40 "Components assigned for metric: confflat" }}{PARA 6 "
+" 1 "" {TEXT -1 29 "Created definition for Kx(up)" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 54 "grdef(`Ky\{^a\}:=[2*y*x,-x^2+y^2-z^2+t^2,2*y
+*z,2*y*t]`):" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components assigned for m
+etric: confflat" }}{PARA 6 "" 1 "" {TEXT -1 29 "Created definition for
+ Ky(up)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "grdef(`Kz\{^a\}:
+=[2*z*x,2*z*y,-x^2-y^2+z^2+t^2,2*z*t]`):" }}{PARA 6 "" 1 "" {TEXT -1 
+40 "Components assigned for metric: confflat" }}{PARA 6 "" 1 "" {TEXT 
+-1 29 "Created definition for Kz(up)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 57 "grdef(`Kt\{^a\}:=[-2*t*x,-2*t*y,-2*t*z,-x^2-y^2-z^2-t
+^2]`):" }}{PARA 6 "" 1 "" {TEXT -1 40 "Components assigned for metric:
+ confflat" }}{PARA 6 "" 1 "" {TEXT -1 29 "Created definition for Kt(up
+)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 253 "grcalc(KillingTest[Px
+],KillingTest[Py],KillingTest[Pz],KillingTest[Pt],KillingTest[Mxy],Kil
+lingTest[Mxz],KillingTest[Myz],KillingTest[Mtx],KillingTest[Mty],Killi
+ngTest[Mtz],KillingTest[d],KillingTest[Kx],KillingTest[Ky],KillingTest
+[Kz],KillingTest[Kt]):" }}{PARA 6 "" 1 "" {TEXT -1 30 "Created definit
+ion for Px(dn) " }}{PARA 6 "" 1 "" {TEXT -1 35 "Created a definition f
+or Px(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 35 "Created a definition for
+ Px(up,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 30 "Created definition for Py(
+dn) " }}{PARA 6 "" 1 "" {TEXT -1 35 "Created a definition for Py(dn,cd
+n)" }}{PARA 6 "" 1 "" {TEXT -1 35 "Created a definition for Py(up,cdn)
+" }}{PARA 6 "" 1 "" {TEXT -1 30 "Created definition for Pz(dn) " }}
+{PARA 6 "" 1 "" {TEXT -1 35 "Created a definition for Pz(dn,cdn)" }}
+{PARA 6 "" 1 "" {TEXT -1 35 "Created a definition for Pz(up,cdn)" }}
+{PARA 6 "" 1 "" {TEXT -1 30 "Created definition for Pt(dn) " }}{PARA 
+6 "" 1 "" {TEXT -1 35 "Created a definition for Pt(dn,cdn)" }}{PARA 6 
+"" 1 "" {TEXT -1 35 "Created a definition for Pt(up,cdn)" }}{PARA 6 "
+" 1 "" {TEXT -1 31 "Created definition for Mxy(dn) " }}{PARA 6 "" 1 "
+" {TEXT -1 36 "Created a definition for Mxy(dn,cdn)" }}{PARA 6 "" 1 "
+" {TEXT -1 36 "Created a definition for Mxy(up,cdn)" }}{PARA 6 "" 1 "
+" {TEXT -1 31 "Created definition for Mxz(dn) " }}{PARA 6 "" 1 "" 
+{TEXT -1 36 "Created a definition for Mxz(dn,cdn)" }}{PARA 6 "" 1 "" 
+{TEXT -1 36 "Created a definition for Mxz(up,cdn)" }}{PARA 6 "" 1 "" 
+{TEXT -1 31 "Created definition for Myz(dn) " }}{PARA 6 "" 1 "" {TEXT 
+-1 36 "Created a definition for Myz(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT 
+-1 36 "Created a definition for Myz(up,cdn)" }}{PARA 6 "" 1 "" {TEXT 
+-1 31 "Created definition for Mtx(dn) " }}{PARA 6 "" 1 "" {TEXT -1 36 
+"Created a definition for Mtx(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 36 "
+Created a definition for Mtx(up,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 31 "C
+reated definition for Mty(dn) " }}{PARA 6 "" 1 "" {TEXT -1 36 "Created
+ a definition for Mty(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 36 "Created \+
+a definition for Mty(up,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 36 "Created a
+ definition for Mtz(up,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 31 "Created de
+finition for Mtz(dn) " }}{PARA 6 "" 1 "" {TEXT -1 36 "Created a defini
+tion for Mtz(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 29 "Created definitio
+n for d(dn) " }}{PARA 6 "" 1 "" {TEXT -1 34 "Created a definition for \+
+d(dn,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 34 "Created a definition for d(u
+p,cdn)" }}{PARA 6 "" 1 "" {TEXT -1 35 "Created a definition for Kx(up,
+cdn)" }}{PARA 6 "" 1 "" {TEXT -1 30 "Created definition for Kx(dn) " }
+}{PARA 6 "" 1 "" {TEXT -1 35 "Created a definition for Kx(dn,cdn)" }}
+{PARA 6 "" 1 "" {TEXT -1 35 "Created a definition for Ky(up,cdn)" }}
+{PARA 6 "" 1 "" {TEXT -1 30 "Created definition for Ky(dn) " }}{PARA 
+6 "" 1 "" {TEXT -1 35 "Created a definition for Ky(dn,cdn)" }}{PARA 6 
+"" 1 "" {TEXT -1 30 "Created definition for Kz(dn) " }}{PARA 6 "" 1 "
+" {TEXT -1 35 "Created a definition for Kz(dn,cdn)" }}{PARA 6 "" 1 "" 
+{TEXT -1 35 "Created a definition for Kz(up,cdn)" }}{PARA 6 "" 1 "" 
+{TEXT -1 35 "Created a definition for Kt(up,cdn)" }}{PARA 6 "" 1 "" 
+{TEXT -1 30 "Created definition for Kt(dn) " }}{PARA 6 "" 1 "" {TEXT 
+-1 35 "Created a definition for Kt(dn,cdn)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/%*CPU~Time~G$\"%aL!\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "grmap(_,autoAlias,`x`):" }}{PARA 6 "" 1 "" {TEXT -1 
+45 "Applying routine autoAlias to KillingTest[Px]" }}{PARA 6 "" 1 "" 
+{TEXT -1 127 "Warning: C corresponds to a previously defined GRTensor \+
+object -- to avoid ambiguities, only its derivatives have been aliased
+." }}{PARA 6 "" 1 "" {TEXT -1 45 "Applying routine autoAlias to Killin
+gTest[Py]" }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: C corresponds to a
+ previously defined GRTensor object -- to avoid ambiguities, only its \+
+derivatives have been aliased." }}{PARA 6 "" 1 "" {TEXT -1 45 "Applyin
+g routine autoAlias to KillingTest[Pz]" }}{PARA 6 "" 1 "" {TEXT -1 
+127 "Warning: C corresponds to a previously defined GRTensor object --
+ to avoid ambiguities, only its derivatives have been aliased." }}
+{PARA 6 "" 1 "" {TEXT -1 45 "Applying routine autoAlias to KillingTest
+[Pt]" }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: C corresponds to a prev
+iously defined GRTensor object -- to avoid ambiguities, only its deriv
+atives have been aliased." }}{PARA 6 "" 1 "" {TEXT -1 46 "Applying rou
+tine autoAlias to KillingTest[Mxy]" }}{PARA 6 "" 1 "" {TEXT -1 127 "Wa
+rning: C corresponds to a previously defined GRTensor object -- to avo
+id ambiguities, only its derivatives have been aliased." }}{PARA 6 "" 
+1 "" {TEXT -1 46 "Applying routine autoAlias to KillingTest[Mxz]" }}
+{PARA 6 "" 1 "" {TEXT -1 127 "Warning: C corresponds to a previously d
+efined GRTensor object -- to avoid ambiguities, only its derivatives h
+ave been aliased." }}{PARA 6 "" 1 "" {TEXT -1 46 "Applying routine aut
+oAlias to KillingTest[Myz]" }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: C
+ corresponds to a previously defined GRTensor object -- to avoid ambig
+uities, only its derivatives have been aliased." }}{PARA 6 "" 1 "" 
+{TEXT -1 46 "Applying routine autoAlias to KillingTest[Mtx]" }}{PARA 
+6 "" 1 "" {TEXT -1 127 "Warning: C corresponds to a previously defined
+ GRTensor object -- to avoid ambiguities, only its derivatives have be
+en aliased." }}{PARA 6 "" 1 "" {TEXT -1 46 "Applying routine autoAlias
+ to KillingTest[Mty]" }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: C corre
+sponds to a previously defined GRTensor object -- to avoid ambiguities
+, only its derivatives have been aliased." }}{PARA 6 "" 1 "" {TEXT -1 
+46 "Applying routine autoAlias to KillingTest[Mtz]" }}{PARA 6 "" 1 "" 
+{TEXT -1 127 "Warning: C corresponds to a previously defined GRTensor \+
+object -- to avoid ambiguities, only its derivatives have been aliased
+." }}{PARA 6 "" 1 "" {TEXT -1 44 "Applying routine autoAlias to Killin
+gTest[d]" }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: C corresponds to a \+
+previously defined GRTensor object -- to avoid ambiguities, only its d
+erivatives have been aliased." }}{PARA 6 "" 1 "" {TEXT -1 45 "Applying
+ routine autoAlias to KillingTest[Kx]" }}{PARA 6 "" 1 "" {TEXT -1 127 
+"Warning: C corresponds to a previously defined GRTensor object -- to \+
+avoid ambiguities, only its derivatives have been aliased." }}{PARA 6 
+"" 1 "" {TEXT -1 45 "Applying routine autoAlias to KillingTest[Ky]" }}
+{PARA 6 "" 1 "" {TEXT -1 127 "Warning: C corresponds to a previously d
+efined GRTensor object -- to avoid ambiguities, only its derivatives h
+ave been aliased." }}{PARA 6 "" 1 "" {TEXT -1 45 "Applying routine aut
+oAlias to KillingTest[Kz]" }}{PARA 6 "" 1 "" {TEXT -1 127 "Warning: C \+
+corresponds to a previously defined GRTensor object -- to avoid ambigu
+ities, only its derivatives have been aliased." }}{PARA 6 "" 1 "" 
+{TEXT -1 45 "Applying routine autoAlias to KillingTest[Kt]" }}{PARA 6 
+"" 1 "" {TEXT -1 127 "Warning: C corresponds to a previously defined G
+RTensor object -- to avoid ambiguities, only its derivatives have been
+ aliased." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "grdisplay(_);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%<For~the~confflat~spacetime:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%5~Killing~Test~ResultG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/%1Killing~Test[Px]G/%gn~a~homothetic/conformal~
+Killing~vector~with~conformal~factorG,$*&&%\"CG6#%\"xG\"\"\"-F*6&F,%\"
+yG%\"zG%\"tG!\"\"#F-\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%1Killin
+g~Test[Py]G/%gn~a~homothetic/conformal~Killing~vector~with~conformal~f
+actorG,$*&&%\"CG6#%\"yG\"\"\"-F*6&%\"xGF,%\"zG%\"tG!\"\"#F-\"\"#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/%1Killing~Test[Pz]G/%gn~a~homothetic/
+conformal~Killing~vector~with~conformal~factorG,$*&&%\"CG6#%\"zG\"\"\"
+-F*6&%\"xG%\"yGF,%\"tG!\"\"#F-\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#/%1Killing~Test[Pt]G/%gn~a~homothetic/conformal~Killing~vector~with~c
+onformal~factorG,$*&&%\"CG6#%\"tG\"\"\"-F*6&%\"xG%\"yG%\"zGF,!\"\"#F-
+\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Killing~Test[Mxy]G/%gn~a~h
+omothetic/conformal~Killing~vector~with~conformal~factorG,$*&,&*&&%\"C
+G6#%\"xG\"\"\"%\"yGF/!\"\"*&F.F/&F,6#F0F/F/F/-F,6&F.F0%\"zG%\"tGF1#F/
+\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Killing~Test[Mxz]G/%gn~a~h
+omothetic/conformal~Killing~vector~with~conformal~factorG,$*&,&*&&%\"C
+G6#%\"xG\"\"\"%\"zGF/!\"\"*&F.F/&F,6#F0F/F/F/-F,6&F.%\"yGF0%\"tGF1#F/
+\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Killing~Test[Myz]G/%gn~a~h
+omothetic/conformal~Killing~vector~with~conformal~factorG,$*&,&*&%\"zG
+\"\"\"&%\"CG6#%\"yGF,F,*&F0F,&F.6#F+F,!\"\"F,-F.6&%\"xGF0F+%\"tGF4#F4
+\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Killing~Test[Mtx]G/%gn~a~h
+omothetic/conformal~Killing~vector~with~conformal~factorG,$*&,&*&&%\"C
+G6#%\"xG\"\"\"%\"tGF/F/*&F.F/&F,6#F0F/F/F/-F,6&F.%\"yG%\"zGF0!\"\"#F/
+\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Killing~Test[Mty]G/%gn~a~h
+omothetic/conformal~Killing~vector~with~conformal~factorG,$*&,&*&%\"tG
+\"\"\"&%\"CG6#%\"yGF,F,*&F0F,&F.6#F+F,F,F,-F.6&%\"xGF0%\"zGF+!\"\"#F,
+\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%2Killing~Test[Mtz]G/%gn~a~h
+omothetic/conformal~Killing~vector~with~conformal~factorG,$*&,&*&%\"tG
+\"\"\"&%\"CG6#%\"zGF,F,*&F0F,&F.6#F+F,F,F,-F.6&%\"xG%\"yGF0F+!\"\"#F,
+\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%0Killing~Test[d]G/%gn~a~hom
+othetic/conformal~Killing~vector~with~conformal~factorG,$*&,,*&&%\"CG6
+#%\"xG\"\"\"F.F/F/*&\"\"#F/-F,6&F.%\"yG%\"zG%\"tGF/F/*&F4F/&F,6#F4F/F/
+*&F5F/&F,6#F5F/F/*&F6F/&F,6#F6F/F/F/F2!\"\"#F/F1" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#/%1Killing~Test[Kx]G/%gn~a~homothetic/conformal~Killing
+~vector~with~conformal~factorG,$*&,2*&-%\"CG6&%\"xG%\"yG%\"zG%\"tG\"\"
+\"F.F2\"\"%*&&F,6#F.F2)F.\"\"#F2F2*&F5F2)F/F8F2!\"\"*&F5F2)F0F8F2F;*&F
+5F2)F1F8F2F2**F8F2F.F2F/F2&F,6#F/F2F2**F8F2F.F2F0F2&F,6#F0F2F2**F8F2F.
+F2F1F2&F,6#F1F2F2F2F+F;#F2F8" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/%1Kil
+ling~Test[Ky]G/%gn~a~homothetic/conformal~Killing~vector~with~conforma
+l~factorG,$*&,2*&-%\"CG6&%\"xG%\"yG%\"zG%\"tG\"\"\"F/F2!\"%**\"\"#F2F.
+F2F/F2&F,6#F.F2!\"\"*&&F,6#F/F2)F.F5F2F2*&F:F2)F/F5F2F8*&F:F2)F0F5F2F2
+*&F:F2)F1F5F2F8**F5F2F/F2F0F2&F,6#F0F2F8**F5F2F/F2F1F2&F,6#F1F2F8F2F+F
+8#F8F5" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#/%1Killing~Test[Kz]G/%gn~a~h
+omothetic/conformal~Killing~vector~with~conformal~factorG,$*&,2*(%\"xG
+\"\"\"%\"zGF,&%\"CG6#F+F,!\"#*(\"\"%F,-F/6&F+%\"yGF-%\"tGF,F-F,!\"\"**
+\"\"#F,F6F,F-F,&F/6#F6F,F8*&&F/6#F-F,)F+F:F,F,*&F>F,)F6F:F,F,*&F>F,)F-
+F:F,F8*&F>F,)F7F:F,F8**F:F,F-F,F7F,&F/6#F7F,F8F,F4F8#F8F:" }}{PARA 12 
+"" 1 "" {XPPMATH 20 "6#/%1Killing~Test[Kt]G/%gn~a~homothetic/conformal
+~Killing~vector~with~conformal~factorG,$*&,2*&-%\"CG6&%\"xG%\"yG%\"zG%
+\"tG\"\"\"F1F2\"\"%**\"\"#F2F.F2F1F2&F,6#F.F2F2**F5F2F/F2F1F2&F,6#F/F2
+F2**F5F2&F,6#F0F2F0F2F1F2F2*&&F,6#F1F2)F.F5F2F2*&F?F2)F/F5F2F2*&F?F2)F
+0F5F2F2*&F?F2)F1F5F2F2F2F+!\"\"#FHF5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 121 "grdisplay(Px(up),Py(up),Pz(up),Pt(up),Mxy(up),Mxz(up
+),Myz(up),Mtx(up),Mty(up),Mtz(up),d(up),Kx(up),Ky(up),Kz(up),Kt(up));
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%<For~the~confflat~spacetime:G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%'Px(up)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%#PxG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#Px
+G%\"aG-%'vectorG6#7&\"\"\"\"\"!F,F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#%'Py(up)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#PyG6#%#upG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/)%#PyG%\"aG-%'vectorG6#7&\"\"!\"\"\"F+F+" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%'Pz(up)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%#PzG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#Pz
+G%\"aG-%'vectorG6#7&\"\"!F+\"\"\"F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#%'Pt(up)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#PtG6#%#upG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/)%#PtG%\"aG-%'vectorG6#7&\"\"!F+F+\"\"\"" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%(Mxy(up)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$MxyG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%$M
+xyG%\"aG-%'vectorG6#7&,$%\"yG!\"\"%\"xG\"\"!F/" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%(Mxz(up)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$MxzG6#
+%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%$MxzG%\"aG-%'vectorG6#7&,$
+%\"zG!\"\"\"\"!%\"xGF." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%(Myz(up)G" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$MyzG6#%#upG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/)%$MyzG%\"aG-%'vectorG6#7&\"\"!,$%\"zG!\"\"%\"yGF+" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%(Mtx(up)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$MtxG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%$M
+txG%\"aG-%'vectorG6#7&%\"tG\"\"!F,%\"xG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%(Mty(up)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$MtyG6#%#upG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%$MtyG%\"aG-%'vectorG6#7&\"\"!%\"tGF
++%\"yG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%(Mtz(up)G" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#-%$MtzG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)
+%$MtzG%\"aG-%'vectorG6#7&\"\"!F+%\"tG%\"zG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&d(up)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%\"dG6#%#u
+pG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%\"dG%\"aG-%'vectorG6#7&%\"xG%
+\"yG%\"zG%\"tG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%'Kx(up)G" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%#KxG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/)%#KxG%\"aG-%'vectorG6#7&,**$)%\"xG\"\"#\"\"\"F0*$)%\"yGF/F0!\"
+\"*$)%\"zGF/F0F4*$)%\"tGF/F0F0,$*&F.F0F3F0F/,$*&F.F0F7F0F/,$*&F.F0F:F0
+F/" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%'Ky(up)G" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%#KyG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#Ky
+G%\"aG-%'vectorG6#7&,$*&%\"xG\"\"\"%\"yGF.\"\"#,**$)F-F0F.!\"\"*$)F/F0
+F.F.*$)%\"zGF0F.F4*$)%\"tGF0F.F.,$*&F/F.F9F.F0,$*&F/F.F<F.F0" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#%'Kz(up)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#-%#KzG6#%#upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#KzG%\"aG-%'vecto
+rG6#7&,$*&%\"xG\"\"\"%\"zGF.\"\"#,$*&%\"yGF.F/F.F0,**$)F-F0F.!\"\"*$)F
+3F0F.F7*$)F/F0F.F.*$)%\"tGF0F.F.,$*&F/F.F>F.F0" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%'Kt(up)G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#KtG6#%#
+upG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/)%#KtG%\"aG-%'vectorG6#7&,$*&%
+\"xG\"\"\"%\"tGF.!\"#,$*&%\"yGF.F/F.F0,$*&%\"zGF.F/F.F0,**$)F-\"\"#F.!
+\"\"*$)F3F:F.F;*$)F6F:F.F;*$)F/F:F.F;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "21 46" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 
+1 }{PAGENUMBERS 0 1 2 33 1 1 }
