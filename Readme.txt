@@ -1,51 +1,75 @@
-Installation notes for GRTensorII Version 1.xx for Maple6
-===========================================================
+# GRTensorII for Maple 6
 
-The GRTensorII distribution consists of the following files:
- 
-License
-Readme           (this file)
-News             (changes since the previous version)
-lib              (library (*.m) files)
-metrics          (sample metrics (*.mpl))
-worksheets       (sample Maple6 worksheets (*.mws))
-help             (text help files)
-maple.ini (a template initialisation file for Maple6)
+**GRTensorII** is a symbolic tensor analysis package developed for **Maple 6**. It is especially useful for computations in general relativity and allows advanced manipulation of tensors within the Maple environment.
 
+---
 
-Installation and Configuration:
-===============================
+## 📦 Contents
 
-Configuration of GRTensor involves letting Maple know where to find
-the GRTensor library (*.m) files and directory of metric files. It is
-best to do this automatically by writing a short Maple initialisation
-file. The procedure for doing this is slightly different for different
-operating systems, and is described below. For more information,
-consult the ?libname and ?maple help pages within Maple.
+This distribution includes:
 
+- `License.txt` — license information
+- `Readme.txt` — this file
+- `News.txt` — changelog
+- `lib/` — library files (`.m`)
+- `metrics/` — example metric files (`.mpl`)
+- `worksheets/` — sample Maple6 worksheets (`.mws`)
+- `help/` — help files for commands
+- `maple.ini` — template initialization file for Maple
 
+---
 
+## 🛠 Installation (Windows)
 
-Windows systems:
--------------------
-Under Windows based systems, the Maple initialization file is called maple.ini. 
-It is searched for in the Maple 6/bin directory, and in the user's current directory. 
-If one is not found in the current working directory, then the Maple 6/users directory 
-is searched and, in multi-user environments, the user's personal profile directory. 
+1. Copy the contents of the `Grtii` folder to a convenient location, e.g.:  
+   `C:\Program Files\Maple\Grtii`
 
-To automatically initialise GRTensor, modify the paths in the mapel.ini file included 
-with this distribution and save it as maple.ini in the BIN.WNT directory of Maple 6.
+2. Edit or create a `maple.ini` file in Maple's home directory and add the following lines:
 
+   ```maple
+   libname := "C:/Program Files/Maple/Grtii/lib", libname:
+   grlibdir := "C:/Program Files/Maple/Grtii/metrics":
+````
 
-HTML Help pages:
-----------------
-The Help directory contains help files in HTML format. To read this 
-open GRTensorII_Help.html with your web browser.
+3. Launch Maple and load the package:
 
+   ```maple
+   with(grtensor);
+   ```
 
-If you have any problems send E-mail to:
+   You should see a message confirming that GRTensorII is loaded.
 
-grtensor@grtensor.phy.queensu.ca
+---
 
+## 📚 Usage
 
+Once the `grtensor` package is loaded, you can begin working with metrics and tensors. Sample use cases can be found in the `worksheets/` directory.
+
+---
+
+## ✅ Verifying Installation
+
+1. Start Maple.
+2. Run `with(grtensor);`
+3. Load a sample metric and compute a tensor:
+
+   ```maple
+   grload("schwarzschild");
+   grcalc(R(dn,dn));
+   ```
+
+---
+
+## ⚙ Requirements
+
+* Maple 6 (or compatible version)
+* Ability to read `.mws`, `.mpl`, and `.m` files
+
+---
+
+## 📄 License
+
+Please refer to `License.txt` for licensing details.
+
+---
 
